@@ -1,0 +1,96 @@
+.modal-squared .modal-content {
+    border-radius: 0;
+    width: 100%;
+    max-width: none;
+  }
+  
+  .modal-squared .modal-body Form {
+    width: 100%;
+  }
+  
+  .modal-squared .modal-body Form.Control {
+    border: 2px solid #000;
+  }
+  
+  .modal-squared .form-control {
+    border-radius: 0;
+    border: 2px solid #333;
+  }
+  
+  .modal-squared .custom-checkbox .custom-control-input:checked ~ .custom-control-label::before {
+    border-radius: 0;
+  }
+  
+  .modal-squared .modal-body .form-group {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .modal-squared .modal-body .form-group label {
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+  
+  .modal-squared .modal-body .form-group .form-control {
+    font-size: 16px;
+  }
+  
+.modal-squared .modal-header {
+    border-bottom: none;
+  }
+  
+.titulcomen {
+    text-align: center;
+    position: relative;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .titulcomen::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background: repeating-linear-gradient(to right, #000, #000 12px, transparent 10px, transparent 18px);
+  }
+  
+  .modal-header {
+    padding-bottom: 0%;
+  }
+  
+
+  .modal-body {
+    margin-bottom: 0%;
+  }
+  
+
+  .autorizar{
+    color: red;
+  }
+
+
+.personal {
+    width: 100%;
+    height: 40px;
+    color: white;
+    background-color: black;
+    font-size: 16px;
+    transition: font-size 0.3s ease, filter 0.3s ease;
+    border: none;
+  }
+  
+  .personal:hover {
+    font-size: 118%;
+    
+  }
+
+.modal-squared .modal-footer {
+    border-top: none;
+  }
+  
+  .modal-squared .modal-footer .btn {
+    margin-right: 10px;
+  }
+  

@@ -1,0 +1,244 @@
+.navbar.navbar-dark.bg-dark.fixed-top{
+  height: 80px;
+}
+
+.Nav{
+  height: 40px;
+}
+
+.nav-link-with-underline {
+  position: relative;
+  overflow: hidden;
+  font-family: Bahnschrift;
+  font-size:medium;
+}
+
+.btn-link{
+  text-decoration: none;
+}
+
+
+
+
+
+.nav-link-with-underline,
+.nav-link-with-underline:visited,
+.nav-link-with-underline:hover,
+.nav-link-with-underline.active,
+.nav-link-with-underline:focus {
+  color: white !important;
+}
+
+.nav-link-with-underline::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  transform: translateX(-50%);
+  width: 0;
+  height: 2px;
+  background-color: white;
+  transition: width 0.3s ease;
+}
+
+.nav-link-with-underline:hover::after,
+.nav-link-with-underline.active::after {
+  width: 90%;
+}
+
+.nav-link-with-underline:hover::after {
+  width: 90%;
+}
+
+
+@keyframes loadAnimation {
+  0% {
+    width: 0;
+  }
+  50% {
+    width: 90%;
+  }
+  100% {
+    width: 90%;
+  }
+}
+
+.nav-link-with-underline:hover::after {
+  animation: loadAnimation 1s ease;
+}
+
+a{
+  text-decoration: none;
+  color: white;
+}
+
+.servi{
+  margin-left: 15px;
+}
+
+.recuadro-debajo {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  background-color: #ffffffd3;
+  border: 1px solid #ccc;
+  padding: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  z-index: 1;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  gap: 10px;
+  opacity: 0;
+  visibility: hidden;
+  animation: fade-in 0.5s ease-in-out forwards;
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+    visibility: hidden;
+  }
+  to {
+    opacity: 1;
+    visibility: visible;
+  }
+}
+
+
+
+.acomodo{
+  display: flex;
+}
+
+
+
+.hizz {
+  position: relative;
+  margin-left: 50%;
+  height: 100%;
+}
+
+.hizz::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+  width: 1.5px;
+  background: repeating-linear-gradient(to bottom, #000000, #000000 12px, transparent 12px, transparent 25px);
+  content: '\00a0';
+}
+
+
+.hiz {
+  position: relative;
+  height: 100%;
+  color: #000000 !important;
+  padding-left: 10px;
+}
+
+.hiz::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+  width: 1.5px;
+  background: repeating-linear-gradient(to bottom, #000000, #000000 12px, transparent 12px, transparent 25px);
+  content: '\00a0';
+}
+
+
+
+
+.nav-link-with-underline1 {
+  position: relative;
+  overflow: hidden;
+  font-family: Bahnschrift;
+  font-size:medium;
+  color: black;
+}
+
+.nav-link-with-underline1::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  transform: translateX(-50%);
+  width: 0;
+  height: 2px;
+  background-color: rgb(0, 0, 0);
+  transition: width 0.3s ease;
+}
+
+.nav-link-with-underline1:hover::after {
+  width: 90%;
+  
+}
+
+.nav-link-with-underline1:hover{
+  color: #000000;
+}
+
+@keyframes loadAnimation {
+  0% {
+    width: 0;
+  }
+  50% {
+    width: 90%;
+  }
+  100% {
+    width: 90%;
+  }
+}
+
+.nav-link-with-underline1:hover::after {
+  animation: loadAnimation 1s ease;
+}
+
+.navbar-toggler-icon {
+  border: 2px solid rgba(255, 255, 255, 0.748);
+  border-radius: 5px;
+}
+
+.navbar-toggler:focus {
+  outline: none;
+}
+
+
+
+.watsapp{
+  position: fixed;
+  top: 86%;
+  left: 3%;
+  z-index: 1;
+}
+
+.watsappbutton{
+ border-radius: 50%;
+ border: none;
+ background-color: rgba(255, 255, 255, 0);
+}
+
+.watsappima {
+  width: 60px;
+  height: 60px;
+  transition: width 0.5s, height 0.5s;
+}
+
+.watsappimaa {
+  width: 40px;
+  height: 40px;
+  transition: width 0.5s, height 0.5s;
+}
+
+.watsappima:hover {
+  width: 70px;
+  height: 70px;
+}
+
+.watsappimaa:hover {
+  width: 50px;
+  height: 50px;
+}

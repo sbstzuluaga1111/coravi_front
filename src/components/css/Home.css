@@ -1,0 +1,244 @@
+.content {
+    display: flex;
+    opacity: 0;
+    transform: translatex(20px);
+    transition: opacity 1s ease-in-out, transform 1s ease-in-out;
+}
+
+.textoyu {
+    opacity: 0;
+    transform: translateX(-20px);
+    transition: opacity 1s ease-in-out, transform 1s ease-in-out;
+}
+
+.visible .textoyu {
+    opacity: 1;
+    transform: translateX(20px);
+}
+
+
+
+p{
+    font-size: 20px;
+}
+
+.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+
+
+.contentt{
+    padding: 4%;
+    display: flex;
+}
+
+.containerimgs {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .imacontent {
+    
+    flex: 0 0 calc(50% - 2%);
+    margin: 1%;
+    text-align: center;
+  }
+  
+  .imagen2 {
+    width: 320px; /* Ajusta el ancho de la imagen al 100% del contenedor */
+    height: 320px; /* Permite que la altura se ajuste proporcionalmente al ancho */
+    border-radius: 1.5rem;
+  }
+  
+  .contentimage {
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    width: 100%;
+    max-width: 800px;
+    z-index: 1;
+  }
+  
+  
+  
+  
+ 
+.textoyu {
+    width: 80%;
+    padding: 1%;
+    text-align: start;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.textoyuu {
+    width: 80%;
+    padding: 1%;
+    text-align: start;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    transform: translateX(20px) translateY(-180px);
+  }
+
+  .textoyuuu {
+    width: 80%;
+    padding: 1%;
+    text-align: start;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    transform: translateX(20px) translateY(-120px);
+  }
+  
+  .texttt{
+    margin-bottom: 10%;
+  }
+
+
+.imacontent {
+    text-align: center;
+    position: relative;
+}
+
+
+
+.imagen1 {
+    width: 100%;
+    max-width: 1000px;
+    height: 600px;
+    border-radius: 2rem;
+    display: block; /* Añadido para solucionar posible espacio en blanco debajo de la imagen */
+}
+
+.contentimage {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white; /* Ajusta el color del texto según el fondo de tu imagen */
+    width: 100%;
+    max-width: 800px; /* Ajusta el ancho máximo del contenido según tu diseño */
+    z-index: 1; /* Asegura que el contenido esté sobre la imagen */
+}
+
+.contentimage h2,
+.contentimage p,
+.contentimage button {
+    margin: 0;
+}
+
+.hablame {
+    width: 50%;
+    border-radius: 1rem;
+    padding: 2%;
+    transition: background-color 0.3s, color 0.3s, border 0.3s; /* Agrega transiciones suaves para un efecto más agradable */
+    background-color: #ffffff;
+    color: #000000;
+    border: 3px solid #000000; /* Agrega un borde negro */
+    cursor: pointer;
+    z-index: 2; /* Asegura que el botón esté sobre la imagen */
+}
+
+/* Efecto hover */
+.hablame:hover {
+    background-color: #272727b8; /* Cambia el color de fondo al pasar el ratón */
+    color: #ffffff; /* Cambia el color del texto al pasar el ratón */
+    border-color: #333333; /* Cambia el color del borde al pasar el ratón */
+}
+
+@media screen and (max-width: 768px) {
+    .App-header {
+        margin-top: 5%;
+        padding: 50px;
+    }
+
+    .content {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .textoyu {
+        order: 2;
+        width: 100%;
+        text-align: center;
+    }
+
+    .imagen1{
+        height: 500px;
+    }
+      
+    .hablame {
+        width: 100%; /* Ajusta el ancho del botón en pantallas más pequeñas */
+    }
+
+    .visible .textoyu {
+        transform: translateX(0px);
+    }
+
+    .contentt{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .containerimgs {
+        display: flex;
+        justify-content: center;
+      }
+
+      .imagen2 {
+        width: 400px;
+        height: 400px;
+        border-radius: 1.5rem;
+      }
+
+      .texttt{
+        margin-bottom: 0%;
+        text-align: center;
+      }
+
+      .textoyuu {
+        width: 80%;
+        padding: 1%;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        transform: translateX(0px) translateY(-50px);
+      }
+      
+    
+}
+
+.center{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+}
+
+
+.redes{
+    top: 112.5%;
+    left: 6%;
+    display: flex;
+    justify-content: space-around;
+    width: 200px;
+    position: absolute;
+}
+
+.face{
+    border-radius: 50%;
+    padding: 10px;
+    background-color: #333333;
+}
+
+.atencion{
+
+    transform: translatey(220px);
+}

@@ -6,19 +6,17 @@ import corre from "../../img/corre.png";
 import Nav from "../Nav";
 import "../css/Servicios.css";
 
-const Proyectos = () => {
+const Mobiliario = () => {
   return (
     <div className="">
       <Nav />
       <div className="separate">
         <div className="textoyuuu tero">
-          <h1 className="texttt">DISEÑO DE PROYECTOS</h1>
+          <h1 className="texttt">DISEÑO DE MOBILIARIO</h1>
           <p>
-            En nuestra esencia está la comprensión profunda de tus necesidades y
-            aspiraciones. Trabajamos en estrecha colaboración contigo para
-            capturar la esencia de tu visión y traducirla en diseños
-            arquitectónicos que no solo cumplen con requisitos prácticos, sino
-            que también inspiran.{" "}
+            Desde elegantes piezas de mobiliario residencial hasta soluciones
+            personalizadas para espacios comerciales, nuestro equipo demuestra
+            consistentemente su capacidad para superar las expectativas.
           </p>
           <button className="hablame tp">HABLA CON UN ASESOR</button>
           <div className="generalbuton">
@@ -47,4 +45,4 @@ const Proyectos = () => {
   );
 };
 
-export default Proyectos;
+export default Mobiliario;

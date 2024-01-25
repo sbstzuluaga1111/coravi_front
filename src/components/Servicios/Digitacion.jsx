@@ -6,19 +6,19 @@ import corre from "../../img/corre.png";
 import Nav from "../Nav";
 import "../css/Servicios.css";
 
-const Proyectos = () => {
+const digitacion = () => {
   return (
     <div className="">
       <Nav />
       <div className="separate">
         <div className="textoyuuu tero">
-          <h1 className="texttt">DISEÑO DE PROYECTOS</h1>
+          <h1 className="texttt">DIGITACIÓN Y PRESENTACIÓN</h1>
           <p>
-            En nuestra esencia está la comprensión profunda de tus necesidades y
-            aspiraciones. Trabajamos en estrecha colaboración contigo para
-            capturar la esencia de tu visión y traducirla en diseños
-            arquitectónicos que no solo cumplen con requisitos prácticos, sino
-            que también inspiran.{" "}
+            Entendemos que la calidad de la documentación es esencial para el
+            progreso sin problemas de cualquier proyecto arquitectónico.
+            Permítenos ser tu socio en la creación de documentos que no solo
+            cumplen con estándares profesionales, sino que también impulsan la
+            eficiencia y la comprensión clara del diseño.
           </p>
           <button className="hablame tp">HABLA CON UN ASESOR</button>
           <div className="generalbuton">
@@ -47,4 +47,4 @@ const Proyectos = () => {
   );
 };
 
-export default Proyectos;
+export default digitacion;

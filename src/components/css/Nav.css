@@ -81,7 +81,7 @@ a{
   top: 100%;
   left: 0;
   width: 100%;
-  background-color: #ffffffd3;
+  background-color: #ffffffeb;
   border: 1px solid #ccc;
   padding: 10px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
@@ -198,7 +198,7 @@ a{
 }
 
 .navbar-toggler-icon {
-  border: 2px solid rgba(255, 255, 255, 0.748);
+  border: 2px solid rgba(255, 255, 255, 0.923);
   border-radius: 5px;
 }
 
@@ -225,12 +225,15 @@ a{
   width: 60px;
   height: 60px;
   transition: width 0.5s, height 0.5s;
+  background-color: white;
+  border-radius: 50%;
 }
 
 .watsappimaa {
   width: 40px;
   height: 40px;
   transition: width 0.5s, height 0.5s;
+  background-color: white;
 }
 
 .watsappima:hover {
@@ -241,4 +244,9 @@ a{
 .watsappimaa:hover {
   width: 50px;
   height: 50px;
+}
+
+
+li {
+  color: black;
 }

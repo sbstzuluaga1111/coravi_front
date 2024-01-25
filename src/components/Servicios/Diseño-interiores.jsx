@@ -6,19 +6,18 @@ import corre from "../../img/corre.png";
 import Nav from "../Nav";
 import "../css/Servicios.css";
 
-const Proyectos = () => {
+const interiores = () => {
   return (
     <div className="">
       <Nav />
       <div className="separate">
         <div className="textoyuuu tero">
-          <h1 className="texttt">DISEÑO DE PROYECTOS</h1>
+          <h1 className="texttt">DISEÑO DE INTERIORES</h1>
           <p>
-            En nuestra esencia está la comprensión profunda de tus necesidades y
-            aspiraciones. Trabajamos en estrecha colaboración contigo para
-            capturar la esencia de tu visión y traducirla en diseños
-            arquitectónicos que no solo cumplen con requisitos prácticos, sino
-            que también inspiran.{" "}
+            Entendemos que el diseño de interiores va más allá de la estética;
+            es una expresión de la personalidad y las necesidades del cliente.
+            Nuestro enfoque colaborativo comienza escuchándote atentamente para
+            entender tus aspiraciones y estilo de vida.
           </p>
           <button className="hablame tp">HABLA CON UN ASESOR</button>
           <div className="generalbuton">
@@ -47,4 +46,4 @@ const Proyectos = () => {
   );
 };
 
-export default Proyectos;
+export default interiores;

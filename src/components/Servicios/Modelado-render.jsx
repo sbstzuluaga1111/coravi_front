@@ -6,19 +6,18 @@ import corre from "../../img/corre.png";
 import Nav from "../Nav";
 import "../css/Servicios.css";
 
-const Proyectos = () => {
+const modelado = () => {
   return (
     <div className="">
       <Nav />
       <div className="separate">
         <div className="textoyuuu tero">
-          <h1 className="texttt">DISEÑO DE PROYECTOS</h1>
+          <h1 className="texttt">MODELADO Y RENDERIZADO</h1>
           <p>
-            En nuestra esencia está la comprensión profunda de tus necesidades y
-            aspiraciones. Trabajamos en estrecha colaboración contigo para
-            capturar la esencia de tu visión y traducirla en diseños
-            arquitectónicos que no solo cumplen con requisitos prácticos, sino
-            que también inspiran.{" "}
+            Creemos que la visualización impactante es esencial para la
+            comprensión y la toma de decisiones informadas. Permítenos ser tu
+            socio en la creación de experiencias visuales que no solo cumplen
+            con estándares profesionales, sino que también inspiran y cautivan.
           </p>
           <button className="hablame tp">HABLA CON UN ASESOR</button>
           <div className="generalbuton">
@@ -46,5 +45,4 @@ const Proyectos = () => {
     </div>
   );
 };
-
-export default Proyectos;
+export default modelado;

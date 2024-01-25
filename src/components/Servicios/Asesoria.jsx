@@ -6,19 +6,19 @@ import corre from "../../img/corre.png";
 import Nav from "../Nav";
 import "../css/Servicios.css";
 
-const Proyectos = () => {
+const Asesoria = () => {
   return (
     <div className="">
       <Nav />
       <div className="separate">
         <div className="textoyuuu tero">
-          <h1 className="texttt">DISEÑO DE PROYECTOS</h1>
+          <h1 className="texttt">ASESORIA ARQUITECTONICA</h1>
           <p>
-            En nuestra esencia está la comprensión profunda de tus necesidades y
-            aspiraciones. Trabajamos en estrecha colaboración contigo para
-            capturar la esencia de tu visión y traducirla en diseños
-            arquitectónicos que no solo cumplen con requisitos prácticos, sino
-            que también inspiran.{" "}
+            Ofrecemos servicios de asesoría arquitectónica diseñados para
+            aquellos verdaderos entusiastas que ven la arquitectura como una
+            expresión de arte y funcionalidad. No somos para cualquiera; somos
+            para aquellos que buscan soluciones arquitectónicas sobresalientes y
+            personalizadas.
           </p>
           <button className="hablame tp">HABLA CON UN ASESOR</button>
           <div className="generalbuton">
@@ -47,4 +47,4 @@ const Proyectos = () => {
   );
 };
 
-export default Proyectos;
+export default Asesoria;

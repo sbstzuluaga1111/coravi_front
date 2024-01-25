@@ -93,4 +93,22 @@
   .modal-squared .modal-footer .btn {
     margin-right: 10px;
   }
+
+  .centerr {
+    display: flex;
+    justify-content: space-between;
+  }
   
+  /* Media query para cambiar a dirección de columna en pantallas pequeñas */
+  @media (max-width: 767px) {
+    .centerr {
+      flex-direction: column;
+      
+    }
+  }
+  
+  .custom-datepicker {
+    width: 100%;
+    height: 40px;
+    border: 2px solid black;
+  }

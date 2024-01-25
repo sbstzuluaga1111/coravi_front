@@ -31,8 +31,10 @@ const Nav = () => {
       <nav className="navbar navbar-dark bg-dark fixed-top">
         <div className="container-fluid">
           
-          {/* Botón grande visible en todos los tamaños */}
-          <button className="navbar-brand btn btn-link" onClick={() => window.location.reload()}>Coravi</button>
+          <NavLink to="/" class="navbar-brand btn btn-link nav-link-with-underline">
+                <button className="navbar-brand btn btn-link">Coravi</button>
+              </NavLink>
+          
           
           {/* Botón de despliegue solo visible en dispositivos móviles */}
           <button className="navbar-toggler d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
@@ -48,7 +50,9 @@ const Nav = () => {
             <div className="offcanvas-body">
               {/* Lista de navegación */}
               <ul className="navbar-nav flex-grow-1">
-
+              <li className="nav-item">
+                  <NavLink to="/" className="nav-link">Inicio</NavLink>
+                </li>
 
             <li class="nav-item dropdown">
             <div class="nav-link dropdown-toggle"  role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -122,10 +126,15 @@ const Nav = () => {
           <div className="d-none d-md-flex">
             
           <div>
+
+          
+
           <div className={`navbar-brand btn btn-link nav-link-with-underline ${mostrarRecuadro ? 'active' : ''}`} onClick={toggleRecuadro}>
                 Servicios
               </div>
       
+      
+
       {mostrarRecuadro && (
   <div className="recuadro-debajo">
     <ul className='acomodo'>
@@ -184,7 +193,7 @@ const Nav = () => {
             <button className="navbar-brand btn btn-link nav-link-with-underline" onClick={handleSugerenciasClick}>?</button>
           </div>
 
-      {/* Renderizar el modal */}
+      
       {showSugerenciasModal && <SugerenciasModal onClose={() => setShowSugerenciasModal(false)} />}
       {showSugerenciasModal1 && <Cita onClose={() => setShowSugerenciasModal1(false)} />}
     </div>

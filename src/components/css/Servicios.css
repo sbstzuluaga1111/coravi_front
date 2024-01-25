@@ -1,0 +1,53 @@
+.separate{
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    color: white;
+    
+}
+
+@media (max-width: 768px) {
+    .separate {
+        margin: 0%;
+        padding: 0%;
+        width: 100%;
+        justify-content: center;
+        flex-direction: column-reverse;
+    }
+
+    .servima {
+        width: 100% !important;
+        height: 50vh !important;
+        object-fit: cover;
+    }
+    
+
+    .tero{
+        padding: 0%;
+        height: 20%;
+        transform: translateY(0px);
+    }
+}
+
+.tp:hover{
+border: white solid;
+}
+
+.watsappima{
+    padding: 1px;
+}
+
+.watsappimaa {
+    padding: 1px;
+    border-radius: 50%;
+    border: 2px solid black;
+}
+
+.servima{
+    width: 50%;
+    height: 94vh;
+}
+
+.tero{
+    padding: 5%;
+}

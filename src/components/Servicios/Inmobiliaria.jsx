@@ -6,19 +6,18 @@ import corre from "../../img/corre.png";
 import Nav from "../Nav";
 import "../css/Servicios.css";
 
-const Proyectos = () => {
+const Inmobiliaria = () => {
   return (
     <div className="">
       <Nav />
       <div className="separate">
         <div className="textoyuuu tero">
-          <h1 className="texttt">DISEÑO DE PROYECTOS</h1>
+          <h1 className="texttt">VENTA DE PROPIEDADES</h1>
           <p>
-            En nuestra esencia está la comprensión profunda de tus necesidades y
-            aspiraciones. Trabajamos en estrecha colaboración contigo para
-            capturar la esencia de tu visión y traducirla en diseños
-            arquitectónicos que no solo cumplen con requisitos prácticos, sino
-            que también inspiran.{" "}
+            Nuestro compromiso va dirigido a convertir sueños de hogar y
+            oportunidades de inversión en experiencias tangibles, guiando a
+            nuestros clientes a través del proceso con profesionalismo y
+            atención personalizada.
           </p>
           <button className="hablame tp">HABLA CON UN ASESOR</button>
           <div className="generalbuton">
@@ -47,4 +46,4 @@ const Proyectos = () => {
   );
 };
 
-export default Proyectos;
+export default Inmobiliaria;

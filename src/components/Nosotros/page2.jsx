@@ -1,5 +1,9 @@
 import React from "react";
 import "../../App.css";
+import image2 from '../../img/PAGINA WEB/nosotros2.jpg'
+import image3 from '../../img/PAGINA WEB/nosotros3.jpg'
+import image4 from '../../img/PAGINA WEB/nosotros4.jpg'
+import image5 from '../../img/PAGINA WEB/nosotros5.jpg'
 
 const page2 = () => {
   return (
@@ -11,7 +15,8 @@ const page2 = () => {
         <div class="card">
           <div class="card-inner">
             <div class="card-front">
-            <img className='imagen3' src="https://www.comparapps.com/wp-content/uploads/2020/03/imagenes-para-paginas-web.png" alt="" />
+            <img className='imagen3' src={image2} alt="" />
+            <h3 className="textimgina">Desarrollo con IA</h3>
             </div>
             <div class="card-back">
               <h3>Desarrollo con IA</h3>
@@ -27,7 +32,8 @@ const page2 = () => {
         <div class="card">
           <div class="card-inner">
             <div class="card-front">
-            <img className='imagen3' src="https://www.comparapps.com/wp-content/uploads/2020/03/imagenes-para-paginas-web.png" alt="" />
+            <img className='imagen3' src={image3} alt="" />
+            <h3 className="textimgina">Diseño internacional</h3>
             </div>
             <div class="card-back">
               <h3>Diseño internacional</h3>
@@ -43,10 +49,11 @@ const page2 = () => {
         <div class="card">
           <div class="card-inner">
             <div class="card-front">
-            <img className='imagen3' src="https://www.comparapps.com/wp-content/uploads/2020/03/imagenes-para-paginas-web.png" alt="" />
+            <img className='imagen3' src={image4} alt="" />
+            <h3 className="textimgina">Inversión inteligente</h3>
             </div>
             <div class="card-back">
-              <h3>Inversión inteligente </h3>
+              <h3>Inversión inteligente</h3>
               <p>
                 Nuestra experiencia, aliada a una visión estratégica, asegura
                 que cada inversión se traduzca en un valor duradero. Aqui
@@ -59,7 +66,8 @@ const page2 = () => {
         <div class="card">
           <div class="card-inner">
             <div class="card-front">
-            <img className='imagen3' src="https://www.comparapps.com/wp-content/uploads/2020/03/imagenes-para-paginas-web.png" alt="" />
+            <img className='imagen3' src={image5} alt="" />
+            <h3 className="textimgina">Equipo multidisciplinar</h3>
             </div>
             <div class="card-back">
               <h3>Equipo multidisciplinar</h3>

@@ -4,53 +4,66 @@ import '../css/Home.css';
 import '../../App.css';
 import Page2 from './page2';
 import Page3 from './page3';
+import imagen1 from '../../img/PAGINA WEB/home1.jpg';
+
+
 
 const Home = () => {
   const contentRef = useRef(null);
   const headerRefs = useRef([]);
 
   useEffect(() => {
-    const handleScroll = () => {
-      if (contentRef.current) {
-        const rect = contentRef.current.getBoundingClientRect();
-        const windowHeight = window.innerHeight || document.documentElement.clientHeight;
-        const isVisible = rect.top < windowHeight && rect.bottom >= 0;
+    const options = {
+      root: null,
+      rootMargin: '0px',
+      threshold: 0.5, // Ajusta este valor según tus necesidades
+    };
 
-        if (isVisible) {
+    const handleIntersection = (entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
           contentRef.current.classList.add('visible');
           headerRefs.current.forEach((ref) => ref.classList.add('visible'));
         } else {
           contentRef.current.classList.remove('visible');
           headerRefs.current.forEach((ref) => ref.classList.remove('visible'));
         }
+      });
+    };
+
+    const observer = new IntersectionObserver(handleIntersection, options);
+
+    const currentContentRef = contentRef.current; // Copia a una variable local
+
+    if (currentContentRef) {
+      observer.observe(currentContentRef);
+    }
+
+    return () => {
+      if (currentContentRef) {
+        observer.unobserve(currentContentRef);
       }
     };
-
-    // Agrega un listener al evento de scroll
-    window.addEventListener('scroll', handleScroll);
-
-    // Limpia el listener al desmontar el componente
-    return () => {
-      window.removeEventListener('scroll', handleScroll);
-    };
-  }, []);
+  }, []); // Asegúrate de que contentRef y headerRefs no estén en la dependencia para evitar el bucle infinito
 
   useEffect(() => {
-    // Scroll a la parte superior y ejecuta la animación al cargar o refrescar la página
     window.scrollTo(0, 0);
 
-    // Ejecuta la animación al cargar o refrescar la página
-    if (contentRef.current) {
-      contentRef.current.classList.add('visible');
+    const currentContentRef = contentRef.current; // Copia a una variable local
+
+    if (currentContentRef) {
+      currentContentRef.classList.add('visible');
       headerRefs.current.forEach((ref) => ref.classList.add('visible'));
     }
   }, []);
 
-    return (
-        <div>
-            <Nav />
-            <div className='App-header'>
-                <div ref={contentRef} className={`content`}>
+ 
+
+  return (
+    <div>
+      <Nav />
+      <div className='App-header'>
+        <div ref={contentRef} className={`content`}>
 
 
         <div className='textoyu'> 
@@ -61,7 +74,7 @@ const Home = () => {
 
         <div className='imacontent'>
         <div className='overlay circu'></div>
-          <img className='imagen1' src="https://www.comparapps.com/wp-content/uploads/2020/03/imagenes-para-paginas-web.png" alt="" />
+          <img className='imagen1' src={imagen1} alt="" />
           <div className='contentimage'>
           <div>
           <h2>Nuestra inspiracion en el mundo</h2>

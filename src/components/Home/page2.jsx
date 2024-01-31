@@ -1,5 +1,9 @@
 import React, { useEffect, useRef } from 'react';
 import '../../App.css';
+import imagen2 from '../../img/PAGINA WEB/home2.jpg';
+import imagen3 from '../../img/PAGINA WEB/home3.jpg';
+import imagen4 from '../../img/PAGINA WEB/home4.jpg';
+import imagen5 from '../../img/PAGINA WEB/home5.jpg';
 
 const Servicios = () => {
   const serviciosRef = useRef(null);
@@ -37,28 +41,30 @@ const Servicios = () => {
 <div className='containerimgs'>
 
 <div className='imacontent'>
-  <img className='imagen2' src="https://www.comparapps.com/wp-content/uploads/2020/03/imagenes-para-paginas-web.png" alt="" />
+  <img className='imagen2' src={imagen2} alt="" />
   <div className='contentimage1'>
   <button className='bututu'>DISEÑO DE PROYECTOS</button>
   </div>
 </div>
 
-<div className='imacontent'>
-  <img className='imagen2' src="https://www.comparapps.com/wp-content/uploads/2020/03/imagenes-para-paginas-web.png" alt="" />
-  <div className='contentimage1'>
-  <button className='bututu'>DISEÑO DE MOBILIARIO</button>
-  </div>
-</div>
+
 
 <div className='imacontent'>
-  <img className='imagen2' src="https://www.comparapps.com/wp-content/uploads/2020/03/imagenes-para-paginas-web.png" alt="" />
+  <img className='imagen2' src={imagen4} alt="" />
   <div className='contentimage1'>
   <button className='bututu'>DISEÑO DE INTERIORES</button>
   </div>
 </div>
 
 <div className='imacontent'>
-  <img className='imagen2' src="https://www.comparapps.com/wp-content/uploads/2020/03/imagenes-para-paginas-web.png" alt="" />
+  <img className='imagen2' src={imagen3} alt="" />
+  <div className='contentimage1'>
+  <button className='bututu'>DISEÑO DE MOBILIARIO</button>
+  </div>
+</div>
+
+<div className='imacontent'>
+  <img className='imagen2' src={imagen5} alt="" />
   <div className='contentimage1'>
   <button className='bututu'>MODELADO Y RENDER</button>
   </div>

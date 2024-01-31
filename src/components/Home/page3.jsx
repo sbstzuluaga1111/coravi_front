@@ -3,6 +3,10 @@ import insta from "../../img/instagram.png";
 import face from "../../img/fase.png";
 import corre from "../../img/corre.png";
 import "../../App.css";
+import imagen6 from '../../img/PAGINA WEB/home6.jpg';
+import imagen7 from '../../img/PAGINA WEB/home7.jpg';
+import imagen8 from '../../img/PAGINA WEB/home8.jpg';
+import imagen9 from '../../img/PAGINA WEB/home9.jpg';
 
 const Servicios = () => {
   const ref = useRef();
@@ -67,7 +71,7 @@ const Servicios = () => {
           <div className="imacontent">
             <img
               className="imagen2"
-              src="https://www.comparapps.com/wp-content/uploads/2020/03/imagenes-para-paginas-web.png"
+              src={imagen6}
               alt=""
             />
             <div className="contentimage1">
@@ -78,18 +82,7 @@ const Servicios = () => {
           <div className="imacontent">
             <img
               className="imagen2"
-              src="https://www.comparapps.com/wp-content/uploads/2020/03/imagenes-para-paginas-web.png"
-              alt=""
-            />
-            <div className="contentimage1">
-              <button className="bututu">INMOBILIARIA</button>
-            </div>
-          </div>
-
-          <div className="imacontent">
-            <img
-              className="imagen2"
-              src="https://www.comparapps.com/wp-content/uploads/2020/03/imagenes-para-paginas-web.png"
+              src={imagen7}
               alt=""
             />
             <div className="contentimage1">
@@ -100,7 +93,19 @@ const Servicios = () => {
           <div className="imacontent">
             <img
               className="imagen2"
-              src="https://www.comparapps.com/wp-content/uploads/2020/03/imagenes-para-paginas-web.png"
+              src={imagen8}
+              alt=""
+            />
+            <div className="contentimage1">
+              <button className="bututu">INMOBILIARIA</button>
+            </div>
+          </div>
+
+
+          <div className="imacontent">
+            <img
+              className="imagen2"
+              src={imagen9}
               alt=""
             />
             <div className="contentimage1">

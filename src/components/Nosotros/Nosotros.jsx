@@ -4,6 +4,7 @@ import '../css/Nosotros.css';
 import Nav from '../Nav';
 import Page2Nosotros from './page2';
 import Page3 from './page3';
+import image1 from '../../img/PAGINA WEB/nosotros1.jpg'
 
 const Nosotros = () => {
   return (
@@ -11,7 +12,7 @@ const Nosotros = () => {
     <div className='nosotros'>
         <div className='imagenNosotrosContainer'>
           <div className='imagenNosotros'>
-          <img className='imagen3' src="https://www.comparapps.com/wp-content/uploads/2020/03/imagenes-para-paginas-web.png" alt="" />
+          <img className='imagen3' src={image1} alt="" />
           </div>
           <div className='overlay'></div>
           <div className='textoSuperpuesto'>

@@ -147,3 +147,10 @@
     height: 100%;
     border-radius: 10px;
   }
+
+  .textimgina{
+    bottom: 2%;
+    position: absolute;
+    color: #ffffff;
+    font-size: large;
+  }

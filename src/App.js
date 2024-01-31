@@ -19,8 +19,6 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path='/nosotros' element={<Nosotros/>}></Route>
 
-
-
         <Route path='/diseño-proyecto' element={<Diseñoproyecto/>}></Route>
         <Route path='/diseño-interiores' element={<Diseñointerior/>}></Route>
         <Route path='/diseño-mobiliario' element={<Diseñomobiliario/>}></Route>
@@ -29,8 +27,6 @@ function App() {
         <Route path='/construccion' element={<Construccion/>}></Route>
         <Route path='/inmobiliaria' element={<Inmobiliaria/>}></Route>
         <Route path='/asesoria' element={<Asesoria/>}></Route>
-
-
 
         <Route path='*' element={<NotFound />} />
       </Routes>

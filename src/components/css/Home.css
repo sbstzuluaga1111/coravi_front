@@ -220,7 +220,7 @@ p{
     }
 
     .contentimage1 {
-      transform: translate(-50%, 20%);
+      transform: translate(-50%, 350%);
       justify-content: center;
     }
 
@@ -268,7 +268,7 @@ p{
         transform: translateY(0px) !important;
       }
 
-      
+     
 
 
     .imagen1{

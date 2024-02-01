@@ -1,4 +1,5 @@
 import React, { useEffect, useRef } from "react";
+import { NavLink } from 'react-router-dom';
 import insta from "../../img/instagram.png";
 import face from "../../img/fase.png";
 import corre from "../../img/corre.png";
@@ -74,9 +75,9 @@ const Servicios = () => {
               src={imagen6}
               alt=""
             />
-            <div className="contentimage1">
+            <NavLink to="/digitacion" className="contentimage1">
               <button className="bututu">DIGITACIÓN</button>
-            </div>
+            </NavLink>
           </div>
 
           <div className="imacontent">
@@ -85,9 +86,9 @@ const Servicios = () => {
               src={imagen7}
               alt=""
             />
-            <div className="contentimage1">
+            <NavLink to="/construccion" className="contentimage1">
               <button className="bututu">CONSTRUCCIÓN</button>
-            </div>
+            </NavLink>
           </div>
 
           <div className="imacontent">
@@ -96,9 +97,9 @@ const Servicios = () => {
               src={imagen8}
               alt=""
             />
-            <div className="contentimage1">
+            <NavLink to="/inmobiliaria" className="contentimage1">
               <button className="bututu">INMOBILIARIA</button>
-            </div>
+            </NavLink>
           </div>
 
 
@@ -108,9 +109,9 @@ const Servicios = () => {
               src={imagen9}
               alt=""
             />
-            <div className="contentimage1">
+            <NavLink to="/asesoria" className="contentimage1">
               <button className="bututu">ASESORIA</button>
-            </div>
+            </NavLink>
           </div>
         </div>
       </div>

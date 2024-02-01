@@ -44,7 +44,7 @@ const Home = () => {
         observer.unobserve(currentContentRef);
       }
     };
-  }, []); // Asegúrate de que contentRef y headerRefs no estén en la dependencia para evitar el bucle infinito
+  }, []);
 
   useEffect(() => {
     window.scrollTo(0, 0);

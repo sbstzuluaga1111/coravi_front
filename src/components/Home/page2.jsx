@@ -1,4 +1,5 @@
 import React, { useEffect, useRef } from 'react';
+import { NavLink } from 'react-router-dom';
 import '../../App.css';
 import imagen2 from '../../img/PAGINA WEB/home2.jpg';
 import imagen3 from '../../img/PAGINA WEB/home3.jpg';
@@ -42,32 +43,32 @@ const Servicios = () => {
 
 <div className='imacontent'>
   <img className='imagen2' src={imagen2} alt="" />
-  <div className='contentimage1'>
+  <NavLink to="/diseño-proyecto" className='contentimage1'>
   <button className='bututu'>DISEÑO DE PROYECTOS</button>
-  </div>
+  </NavLink>
 </div>
 
 
 
 <div className='imacontent'>
   <img className='imagen2' src={imagen4} alt="" />
-  <div className='contentimage1'>
+  <NavLink to="/diseño-interiores" className='contentimage1'>
   <button className='bututu'>DISEÑO DE INTERIORES</button>
-  </div>
+  </NavLink>
 </div>
 
 <div className='imacontent'>
   <img className='imagen2' src={imagen3} alt="" />
-  <div className='contentimage1'>
+  <NavLink to="/diseño-mobiliario" className='contentimage1'>
   <button className='bututu'>DISEÑO DE MOBILIARIO</button>
-  </div>
+  </NavLink>
 </div>
 
 <div className='imacontent'>
   <img className='imagen2' src={imagen5} alt="" />
-  <div className='contentimage1'>
+  <NavLink to="/modelado-render" className='contentimage1'>
   <button className='bututu'>MODELADO Y RENDER</button>
-  </div>
+  </NavLink>
 </div>
 
 

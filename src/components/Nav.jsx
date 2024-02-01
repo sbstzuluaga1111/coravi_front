@@ -34,18 +34,18 @@ const Nav = () => {
       <nav className="navbar navbar-dark bg-dark fixed-top">
         <div className="container-fluid">
           
-          <NavLink to="/" class="navbar-brand btn btn-link nav-link-with-underline">
+          <NavLink to="/" className="navbar-brand btn btn-link nav-link-with-underline">
                 <button className="navbar-brand btn btn-link logotipot"><img className='logo' src={logo} alt=''></img>
                 Arquitectura & soluciones</button>
               </NavLink>
           
           
-          {/* Botón de despliegue solo visible en dispositivos móviles */}
+          
           <button className="navbar-toggler d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
             <span className="navbar-toggler-icon"></span>
           </button>
 
-          {/* Contenido del offcanvas */}
+          
           <Nav2></Nav2>
 
 

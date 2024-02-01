@@ -34,54 +34,54 @@ const Nav2 = () => {
                   <NavLink to="/" className="nav-link">Inicio</NavLink>
                 </li>
 
-            <li class="nav-item dropdown">
-            <div class="nav-link dropdown-toggle"  role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            <li className="nav-item dropdown">
+            <div className="nav-link dropdown-toggle"  role="button" data-bs-toggle="dropdown" aria-expanded="false">
               Servicios
             </div>
-            <ul class="dropdown-menu dropdown-menu-dark">
-              <NavLink to="/diseño-proyecto" class="navbar-brand btn btn-link nav-link-with-underline">
+            <ul className="dropdown-menu dropdown-menu-dark">
+              <NavLink to="/diseño-proyecto" className="navbar-brand btn btn-link nav-link-with-underline">
                 <div className='servi'> - DISEÑO DE PROYECTO</div>
               </NavLink>
               <li>
-                <hr class="dropdown-divider"/>
+                <hr className="dropdown-divider"/>
               </li>
-              <NavLink to="/diseño-interiores" class="navbar-brand btn btn-link nav-link-with-underline">
+              <NavLink to="/diseño-interiores" className="navbar-brand btn btn-link nav-link-with-underline">
                 <div className='servi'> - DISEÑO DE INTERIORES</div>
               </NavLink>
               <li>
-                <hr class="dropdown-divider"/>
+                <hr className="dropdown-divider"/>
               </li>
-              <NavLink to="/diseño-mobiliario" class="navbar-brand btn btn-link nav-link-with-underline">
+              <NavLink to="/diseño-mobiliario" className="navbar-brand btn btn-link nav-link-with-underline">
                 <div className='servi'> - DISEÑO DE MOBILIARIO</div>
               </NavLink>
               <li>
-                <hr class="dropdown-divider"/>
+                <hr className="dropdown-divider"/>
               </li>
-              <NavLink to="/modelado-render" class="navbar-brand btn btn-link nav-link-with-underline">
+              <NavLink to="/modelado-render" className="navbar-brand btn btn-link nav-link-with-underline">
                 <div className='servi'> - MODELADO Y RENDER</div>
               </NavLink>
               <li>
-                <hr class="dropdown-divider"/>
+                <hr className="dropdown-divider"/>
               </li>
-              <NavLink to="/digitacion" class="navbar-brand btn btn-link nav-link-with-underline" >
+              <NavLink to="/digitacion" className="navbar-brand btn btn-link nav-link-with-underline" >
                 <div className='servi'> - DIGITACIÓN</div>
               </NavLink>
               <li>
-                <hr class="dropdown-divider"/>
+                <hr className="dropdown-divider"/>
               </li>
-              <NavLink to="/construccion" class="navbar-brand btn btn-link nav-link-with-underline">
+              <NavLink to="/construccion" className="navbar-brand btn btn-link nav-link-with-underline">
                 <div className='servi'> - CONSTRUCCIÓN</div>
               </NavLink>
               <li>
-                <hr class="dropdown-divider"/>
+                <hr className="dropdown-divider"/>
               </li>
-              <NavLink to="/inmobiliaria" class="navbar-brand btn btn-link nav-link-with-underline">
+              <NavLink to="/inmobiliaria" className="navbar-brand btn btn-link nav-link-with-underline">
                 <div className='servi'> - INMOVILIARIA</div>
               </NavLink>
               <li>
-                <hr class="dropdown-divider"/>
+                <hr className="dropdown-divider"/>
               </li>
-              <NavLink to="/asesoria" class="navbar-brand btn btn-link nav-link-with-underline" >
+              <NavLink to="/asesoria" className="navbar-brand btn btn-link nav-link-with-underline" >
                 <div className='servi'> - ASESORIA</div>
               </NavLink>
             </ul>

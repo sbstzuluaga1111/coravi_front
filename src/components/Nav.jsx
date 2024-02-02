@@ -6,7 +6,7 @@ import './css/Nav.css';
 import SugerenciasModal from './Sugerencias/Sugerencias';
 import Cita from './Agenda/Cita';
 import watsap from '../img/whatsapp.png'
-import logo from '../img/PAGINA WEB/logocoraving.png';
+import logo from '../img/favicon.png';
 import Nav2 from './Nav2';
 
 const Nav = () => {
@@ -15,7 +15,7 @@ const Nav = () => {
   const [mostrarRecuadro, setMostrarRecuadro] = useState(false);
   const [serviciosHover, setServiciosHover] = useState(false);
   const handleWhatsAppClick = () => {
-    window.open('https://api.whatsapp.com/send?phone=573143220765&text=Hola. Quiero comunicarme con ustedes.', '_blank');
+    window.open('https://api.whatsapp.com/send?phone=573215513300&text=Hola. Quiero comunicarme con ustedes.', '_blank');
   };
 
 
@@ -37,10 +37,18 @@ const Nav = () => {
       <nav className="navbar navbar-dark bg-dark fixed-top">
         <div className="container-fluid">
           
-          <NavLink to="/" className="navbar-brand btn btn-link nav-link-with-underline">
-                <button className="navbar-brand btn btn-link logotipot"><img className='logo' src={logo} alt=''></img>
-                Arquitectura & soluciones</button>
-              </NavLink>
+        <NavLink to="/" className="navbar-brand btn btn-link nav-link-with-underline ok">
+  <button className="navbar-brand btn btn-link logotipot">
+    <div className="logo-container">
+      <img className='logo' src={logo} alt=''></img>
+      <h3>CORAVI</h3>
+    </div>
+    <div>
+      <p className='textitt'>Arquitectura & soluciones</p>
+    </div>
+  </button>
+</NavLink>
+
           
           
           

@@ -3,7 +3,7 @@
     justify-content: space-around;
     background-color: black;
     color: white;
-    
+    min-height: 94.6vh;
 }
 
 @media (max-width: 768px) {
@@ -45,9 +45,13 @@ border: white solid;
 
 .servima{
     width: 50%;
-    height: 94vh;
+    height: 94.6vh;
 }
 
 .tero{
     padding: 5%;
+}
+
+.muvet{
+    transform: translateY(20px);
 }

@@ -45,7 +45,9 @@ const Servicios = () => {
           <h1 className="texttt">TODO EN UN SOLO LUGAR</h1>
 
           <p>RECIBE LAS OFERTAS ANTES QUE NADIE</p>
+          
           <button className="hablame">SUSCRIBETE GRATIS</button>
+          <button className="hablame muvet">NUESTRO PORTAFOLIO</button>
           <div className="generalbuton">
             <div className="atencion">
               <h3>Horario de atención</h3>

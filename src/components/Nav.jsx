@@ -14,6 +14,9 @@ const Nav = () => {
   const [showSugerenciasModal1, setShowSugerenciasModal1] = useState(false);
   const [mostrarRecuadro, setMostrarRecuadro] = useState(false);
   const [serviciosHover, setServiciosHover] = useState(false);
+  const handleWhatsAppClick = () => {
+    window.open('https://api.whatsapp.com/send?phone=573143220765&text=Hola. Quiero comunicarme con ustedes.', '_blank');
+  };
 
 
   const handleSugerenciasClick = () => {
@@ -126,9 +129,9 @@ const Nav = () => {
     </div>
       </nav>
 <div className='watsapp'>
-<button className='watsappbutton'>
+<div onClick={handleWhatsAppClick} className='watsappbutton'>
 <img className='watsappima' src={watsap} alt="" />
-</button>
+</div>
 </div>
 
     </div>

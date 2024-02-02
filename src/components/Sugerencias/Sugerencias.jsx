@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Modal, Form } from 'react-bootstrap';
+import { Modal, Form, Alert } from 'react-bootstrap';
 import '../css/Sugerencias.css';
 
 const Sugerencias = ({ onClose }) => {
@@ -9,6 +9,9 @@ const Sugerencias = ({ onClose }) => {
     comentario: '',
     autorizacion: false,
   });
+  const [isLoading, setIsLoading] = useState(false);
+  const [isError, setIsError] = useState(false);
+  const [successMessage, setSuccessMessage] = useState('');
 
   const handleChange = (e) => {
     const { name, value, type, checked } = e.target;
@@ -18,9 +21,32 @@ const Sugerencias = ({ onClose }) => {
     });
   };
 
-  const handleSubmit = () => {
-    console.log('Datos enviados:', formData);
-    onClose();
+  const handleSubmit = async () => {
+    setIsLoading(true);
+    setIsError(false);
+
+    try {
+      const response = await fetch('http://localhost:5000/send-email', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(formData),
+      });
+
+      if (response.ok) {
+        setSuccessMessage('Correo enviado con éxito');
+        onClose();
+      } else {
+        setIsError(true);
+        setSuccessMessage('Error al enviar el correo');
+      }
+    } catch (error) {
+      setIsError(true);
+      setSuccessMessage('Error al enviar el correo');
+    } finally {
+      setIsLoading(false);
+    }
   };
 
   return (
@@ -34,6 +60,9 @@ const Sugerencias = ({ onClose }) => {
         <Modal.Title className='titulcomen'>Tus comentarios son valiosos para nosotros, muchas gracias</Modal.Title>
       </Modal.Header>
       <Modal.Body>
+        {isError && <Alert variant="danger">{successMessage}</Alert>}
+        {!isError && successMessage && <Alert variant="success">{successMessage}</Alert>}
+
         <Form>
           <Form.Group controlId="formNombre">
             <Form.Label>Nombre Completo*</Form.Label>
@@ -75,13 +104,14 @@ const Sugerencias = ({ onClose }) => {
               onChange={handleChange}
             />
           </Form.Group>
+
+          <div>
+            <button type='button' className='personal' onClick={handleSubmit} disabled={isLoading}>
+              {isLoading ? 'Enviando...' : 'Enviar'}
+            </button>
+          </div>
         </Form>
       </Modal.Body>
-      <div>
-        <button className='personal' onClick={handleSubmit}>
-          Enviar
-        </button>
-      </div>
     </Modal>
   );
 };

@@ -19,10 +19,10 @@ const page3 = () => {
           Más de 15 años de experiencia.
           </p>
           <p><img className="watsappimaa black m-2" src={grupo} alt="" />
-          24 especialistas en áreas específicas.
+          15 áreas de especialización a tu disposición.
           </p>
           <p><img className="watsappimaa black m-2" src={planeta} alt="" />
-          Presencia en 5 paises del mundo
+          Presencia en 7 paises del mundo.
           </p>
           <button className="hablame tp">HABLA CON UN ASESOR</button>
           <div className="generalbuton">

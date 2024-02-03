@@ -10,6 +10,20 @@ import planeta from '../../img/planeta-tierra.png'
 import "../css/Servicios.css";
 
 const page3 = () => {
+
+
+  const handleWhatsAppClick = () => {
+    window.open('https://api.whatsapp.com/send?phone=573215513300', '_blank');
+  };
+
+  const handleWhatsAppClick1 = () => {
+    window.open('https://www.instagram.com/coravi_arq/', '_blank');
+  };
+
+  const handleWhatsAppClick2 = () => {
+    window.location.href = 'mailto:serviciocoravi.sas@gmail.com';
+  };
+
   return (
     <div className='App-header nosotros'>
        <div className="separate nosotros padingg">
@@ -24,17 +38,17 @@ const page3 = () => {
           <p><img className="watsappimaa black m-2" src={planeta} alt="" />
           Presencia en 7 paises del mundo.
           </p>
-          <button className="hablame tp">HABLA CON UN ASESOR</button>
+          <button onClick={handleWhatsAppClick} className="hablame tp">HABLA CON UN ASESOR</button>
           <div className="generalbuton">
             <div className="atencion">
               <div className="redes">
-                <button className="watsappbutton">
+                <button onClick={handleWhatsAppClick1} className="watsappbutton">
                   <img className="watsappimaa" src={insta} alt="" />
                 </button>
                 <button className="watsappbutton">
                   <img className="watsappimaa face" src={face} alt="" />
                 </button>
-                <button className="watsappbutton">
+                <button onClick={handleWhatsAppClick2} className="watsappbutton">
                   <img className="watsappimaa" src={corre} alt="" />
                 </button>
               </div>

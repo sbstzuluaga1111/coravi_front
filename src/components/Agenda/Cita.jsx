@@ -52,7 +52,7 @@ const Sugerencias = ({ onClose }) => {
     }
 
     try {
-      const response = await fetch('http://localhost:5000/send-email-form2', {
+      const response = await fetch('https://coravi-back.onrender.com/send-email-form2', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

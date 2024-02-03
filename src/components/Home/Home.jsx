@@ -46,6 +46,11 @@ const Home = () => {
     };
   }, []);
 
+
+  const handleWhatsAppClick = () => {
+    window.open('https://api.whatsapp.com/send?phone=573215513300', '_blank');
+  };
+
   useEffect(() => {
     window.scrollTo(0, 0);
 
@@ -69,7 +74,7 @@ const Home = () => {
         <div className='textoyu'> 
         <p>DAR EL PRIMER PASO ES GRATIS</p>
         <h1 className='texttt'>EXCLUSIVIDAD HECHA ESPACIO, DISEÑADO PARA TI.</h1>
-        <button className='hablame'>HABLACON UN ASESOR</button>
+        <button onClick={handleWhatsAppClick} className='hablame'>HABLACON UN ASESOR</button>
         </div> 
 
         <div className='imacontent'>

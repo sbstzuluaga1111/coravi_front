@@ -10,6 +10,7 @@ import Digitacion from './components/Servicios/Digitacion';
 import Construccion from './components/Servicios/Construccion';
 import Inmobiliaria from './components/Servicios/Inmobiliaria';
 import Asesoria from './components/Servicios/Asesoria';
+import Explora from './components/Explora/Page1';
 import NotFound from './components/Errors/NotFound';
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path='/nosotros' element={<Nosotros/>}></Route>
 
+        <Route path='/explora-el-mundo' element={<Explora/>}></Route>
         <Route path='/diseño-proyecto' element={<Diseñoproyecto/>}></Route>
         <Route path='/diseño-interiores' element={<Diseñointerior/>}></Route>
         <Route path='/diseño-mobiliario' element={<Diseñomobiliario/>}></Route>

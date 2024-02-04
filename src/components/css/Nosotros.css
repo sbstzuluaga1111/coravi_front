@@ -4,8 +4,19 @@
     text-align: center;
   }
 
+ .explora{
+  background-color: #ffffff !important;
+  color: rgb(0, 0, 0);
+  text-align: center;
+ } 
+
+ .espesiood{
+  margin-top: 5%;
+ }
+
   
   .circu {
+    height: 77% !important;
     border-radius: 2rem;
   }
   
@@ -69,7 +80,7 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.3); /* Color oscuro con baja opacidad */
+    background-color: rgba(0, 0, 0, 0.195); /* Color oscuro con baja opacidad */
   }
   
   .black{
@@ -92,6 +103,7 @@
     height: 380px;
     perspective: 1000px;
     background-color: #1A1A1A;
+    border-radius: 10px;
   }
   
   .card-inner {

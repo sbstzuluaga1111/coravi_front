@@ -1,4 +1,5 @@
 import React, { useEffect, useRef } from 'react';
+import { NavLink } from 'react-router-dom';
 import Nav from '../Nav';
 import '../css/Home.css';
 import '../../App.css';
@@ -86,9 +87,10 @@ const Home = () => {
           <br />
           <p>Esplora nuestra lista de referentes internacionles</p>
           </div>
-          <div>
+          <NavLink to="/explora-el-mundo">
           <button>EXPLORA EL MUNDO</button>
-          </div>
+          </NavLink>
+          
           </div>
         </div>
 

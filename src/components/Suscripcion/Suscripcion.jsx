@@ -1,6 +1,10 @@
 import React, { useState } from 'react';
 import { Modal, Button, Form } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import i1 from "../../img/PAGINA WEB/i1.jpg";
+import i2 from "../../img/PAGINA WEB/i2.jpg";
+import i3 from "../../img/PAGINA WEB/i3.jpg";
+import i4 from "../../img/PAGINA WEB/i4.jpg";
 import { Carousel } from 'react-bootstrap';
 
 const Suscripcion = ({ modalIsOpen, closeModal }) => {
@@ -52,7 +56,7 @@ const Suscripcion = ({ modalIsOpen, closeModal }) => {
               <Carousel.Item>
                 <img
                   className="susbcripcaru"
-                  src="https://www.comparapps.com/wp-content/uploads/2020/03/imagenes-para-paginas-web.png"
+                  src={i1}
                   alt="First slide"
                 />
               </Carousel.Item>
@@ -60,7 +64,7 @@ const Suscripcion = ({ modalIsOpen, closeModal }) => {
               <Carousel.Item>
                 <img
                   className="susbcripcaru"
-                  src="https://www.comparapps.com/wp-content/uploads/2020/03/imagenes-para-paginas-web.png"
+                  src={i2}
                   alt="Second slide"
                 />
               </Carousel.Item>
@@ -68,7 +72,15 @@ const Suscripcion = ({ modalIsOpen, closeModal }) => {
               <Carousel.Item>
                 <img
                   className="susbcripcaru"
-                  src="https://www.comparapps.com/wp-content/uploads/2020/03/imagenes-para-paginas-web.png"
+                  src={i3}
+                  alt="Third slide"
+                />
+              </Carousel.Item>
+
+              <Carousel.Item>
+                <img
+                  className="susbcripcaru"
+                  src={i4}
                   alt="Third slide"
                 />
               </Carousel.Item>

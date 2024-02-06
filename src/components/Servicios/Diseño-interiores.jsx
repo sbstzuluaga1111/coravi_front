@@ -6,6 +6,11 @@ import corre from "../../img/corre.png";
 import Nav from "../Nav";
 import "../css/Servicios.css";
 import 'bootstrap/dist/css/bootstrap.min.css';
+import d1 from "../../img/PAGINA WEB/d1.jpg";
+import d2 from "../../img/PAGINA WEB/d2.jpg";
+import d3 from "../../img/PAGINA WEB/d3.jpg";
+import d4 from "../../img/PAGINA WEB/d4.jpg";
+import d5 from "../../img/PAGINA WEB/d5.jpg";
 import { Carousel } from 'react-bootstrap';
 
 const interiores = () => {
@@ -57,7 +62,7 @@ const interiores = () => {
   <Carousel.Item>
     <img
       className="servima"
-      src="https://www.comparapps.com/wp-content/uploads/2020/03/imagenes-para-paginas-web.png"
+      src={d1}
       alt="First slide"
     />
   </Carousel.Item>
@@ -65,7 +70,7 @@ const interiores = () => {
   <Carousel.Item>
     <img
       className="servima"
-      src="https://www.comparapps.com/wp-content/uploads/2020/03/imagenes-para-paginas-web.png"
+      src={d2}
       alt="Second slide"
     />
   </Carousel.Item>
@@ -73,7 +78,7 @@ const interiores = () => {
   <Carousel.Item>
     <img
       className="servima"
-      src="https://www.comparapps.com/wp-content/uploads/2020/03/imagenes-para-paginas-web.png"
+      src={d3}
       alt="Third slide"
     />
   </Carousel.Item>
@@ -81,7 +86,7 @@ const interiores = () => {
   <Carousel.Item>
     <img
       className="servima"
-      src="https://www.comparapps.com/wp-content/uploads/2020/03/imagenes-para-paginas-web.png"
+      src={d4}
       alt="Third slide"
     />
   </Carousel.Item>
@@ -89,7 +94,7 @@ const interiores = () => {
   <Carousel.Item>
     <img
       className="servima"
-      src="https://www.comparapps.com/wp-content/uploads/2020/03/imagenes-para-paginas-web.png"
+      src={d5}
       alt="Third slide"
     />
   </Carousel.Item>

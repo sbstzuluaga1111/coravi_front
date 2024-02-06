@@ -6,6 +6,11 @@ import corre from "../../img/corre.png";
 import Nav from "../Nav";
 import "../css/Servicios.css";
 import 'bootstrap/dist/css/bootstrap.min.css';
+import e1 from "../../img/PAGINA WEB/home4.jpg";
+import e2 from "../../img/PAGINA WEB/e2.jpg";
+import e3 from "../../img/PAGINA WEB/e3.jpg";
+import e4 from "../../img/PAGINA WEB/e4.jpg";
+import e5 from "../../img/PAGINA WEB/e5.jpg";
 import { Carousel } from 'react-bootstrap';
 
 const Mobiliario = () => {
@@ -56,7 +61,7 @@ const Mobiliario = () => {
   <Carousel.Item>
     <img
       className="servima"
-      src="https://www.comparapps.com/wp-content/uploads/2020/03/imagenes-para-paginas-web.png"
+      src={e1}
       alt="First slide"
     />
   </Carousel.Item>
@@ -64,7 +69,7 @@ const Mobiliario = () => {
   <Carousel.Item>
     <img
       className="servima"
-      src="https://www.comparapps.com/wp-content/uploads/2020/03/imagenes-para-paginas-web.png"
+      src={e2}
       alt="Second slide"
     />
   </Carousel.Item>
@@ -72,7 +77,7 @@ const Mobiliario = () => {
   <Carousel.Item>
     <img
       className="servima"
-      src="https://www.comparapps.com/wp-content/uploads/2020/03/imagenes-para-paginas-web.png"
+      src={e3}
       alt="Third slide"
     />
   </Carousel.Item>
@@ -80,7 +85,7 @@ const Mobiliario = () => {
   <Carousel.Item>
     <img
       className="servima"
-      src="https://www.comparapps.com/wp-content/uploads/2020/03/imagenes-para-paginas-web.png"
+      src={e4}
       alt="Third slide"
     />
   </Carousel.Item>
@@ -88,7 +93,7 @@ const Mobiliario = () => {
   <Carousel.Item>
     <img
       className="servima"
-      src="https://www.comparapps.com/wp-content/uploads/2020/03/imagenes-para-paginas-web.png"
+      src={e5}
       alt="Third slide"
     />
   </Carousel.Item>

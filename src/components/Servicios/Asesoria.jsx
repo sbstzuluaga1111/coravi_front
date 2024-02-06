@@ -6,6 +6,9 @@ import corre from "../../img/corre.png";
 import Nav from "../Nav";
 import "../css/Servicios.css";
 import 'bootstrap/dist/css/bootstrap.min.css';
+import a1 from "../../img/PAGINA WEB/a1.jpg";
+import a2 from "../../img/PAGINA WEB/a2.jpg";
+import a3 from "../../img/PAGINA WEB/a3.jpg";
 import { Carousel } from 'react-bootstrap';
 
 const Asesoria = () => {
@@ -58,7 +61,7 @@ const Asesoria = () => {
   <Carousel.Item>
     <img
       className="servima"
-      src="https://www.comparapps.com/wp-content/uploads/2020/03/imagenes-para-paginas-web.png"
+      src={a1}
       alt="First slide"
     />
   </Carousel.Item>
@@ -66,7 +69,7 @@ const Asesoria = () => {
   <Carousel.Item>
     <img
       className="servima"
-      src="https://www.comparapps.com/wp-content/uploads/2020/03/imagenes-para-paginas-web.png"
+      src={a2}
       alt="Second slide"
     />
   </Carousel.Item>
@@ -74,7 +77,7 @@ const Asesoria = () => {
   <Carousel.Item>
     <img
       className="servima"
-      src="https://www.comparapps.com/wp-content/uploads/2020/03/imagenes-para-paginas-web.png"
+      src={a3}
       alt="Third slide"
     />
   </Carousel.Item>

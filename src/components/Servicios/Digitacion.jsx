@@ -6,6 +6,11 @@ import corre from "../../img/corre.png";
 import Nav from "../Nav";
 import "../css/Servicios.css";
 import 'bootstrap/dist/css/bootstrap.min.css';
+import c1 from "../../img/PAGINA WEB/c1.jpg";
+import c2 from "../../img/PAGINA WEB/c2.jpg";
+import c3 from "../../img/PAGINA WEB/c3.jpg";
+import c4 from "../../img/PAGINA WEB/c4.jpg";
+import c5 from "../../img/PAGINA WEB/c5.jpg";
 import { Carousel } from 'react-bootstrap';
 
 const digitacion = () => {
@@ -58,7 +63,7 @@ const digitacion = () => {
   <Carousel.Item>
     <img
       className="servima"
-      src="https://www.comparapps.com/wp-content/uploads/2020/03/imagenes-para-paginas-web.png"
+      src={c1}
       alt="First slide"
     />
   </Carousel.Item>
@@ -66,7 +71,7 @@ const digitacion = () => {
   <Carousel.Item>
     <img
       className="servima"
-      src="https://www.comparapps.com/wp-content/uploads/2020/03/imagenes-para-paginas-web.png"
+      src={c2}
       alt="Second slide"
     />
   </Carousel.Item>
@@ -74,7 +79,7 @@ const digitacion = () => {
   <Carousel.Item>
     <img
       className="servima"
-      src="https://www.comparapps.com/wp-content/uploads/2020/03/imagenes-para-paginas-web.png"
+      src={c3}
       alt="Third slide"
     />
   </Carousel.Item>
@@ -82,7 +87,7 @@ const digitacion = () => {
   <Carousel.Item>
     <img
       className="servima"
-      src="https://www.comparapps.com/wp-content/uploads/2020/03/imagenes-para-paginas-web.png"
+      src={c4}
       alt="Third slide"
     />
   </Carousel.Item>
@@ -90,7 +95,7 @@ const digitacion = () => {
   <Carousel.Item>
     <img
       className="servima"
-      src="https://www.comparapps.com/wp-content/uploads/2020/03/imagenes-para-paginas-web.png"
+      src={c5}
       alt="Third slide"
     />
   </Carousel.Item>

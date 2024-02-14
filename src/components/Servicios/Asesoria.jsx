@@ -31,15 +31,15 @@ const Asesoria = () => {
       <Nav />
       <div className="separate">
         <div className="textoyuuu tero">
-          <h1 className="texttt">ASESORIA ARQUITECTONICA</h1>
-          <p>
+          <h1 className="monserat titulos">ASESORIA ARQUITECTONICA</h1>
+          <p className="bonscript">
             Ofrecemos servicios de asesoría arquitectónica diseñados para
             aquellos verdaderos entusiastas que ven la arquitectura como una
             expresión de arte y funcionalidad. No somos para cualquiera; somos
             para aquellos que buscan soluciones arquitectónicas sobresalientes y
             personalizadas.
           </p>
-          <button onClick={handleWhatsAppClick} className="hablame tp">HABLA CON UN ASESOR</button>
+          <button onClick={handleWhatsAppClick} className="hablame tp bonscript">HABLA CON UN ASESOR</button>
           <div className="generalbuton">
             <div className="atencion">
               <div className="redes">

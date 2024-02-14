@@ -33,13 +33,13 @@ const Mobiliario = () => {
       <Nav />
       <div className="separate">
         <div className="textoyuuu tero">
-          <h1 className="texttt">DISEÑO DE MOBILIARIO</h1>
-          <p>
+          <h1 className="monserat titulos">DISEÑO DE MOBILIARIO</h1>
+          <p className="bonscript">
             Desde elegantes piezas de mobiliario residencial hasta soluciones
             personalizadas para espacios comerciales, nuestro equipo demuestra
             consistentemente su capacidad para superar las expectativas.
           </p>
-          <button onClick={handleWhatsAppClick} className="hablame tp">HABLA CON UN ASESOR</button>
+          <button onClick={handleWhatsAppClick} className="hablame tp bonscript">HABLA CON UN ASESOR</button>
           <div className="generalbuton">
             <div className="atencion">
               <div className="redes">

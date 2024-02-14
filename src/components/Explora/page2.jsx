@@ -20,7 +20,7 @@ const page2 = () => {
           
             <div className="card-front">
             <img className='imagen3' src={image2} alt="" />
-            <h3 className="textimgina">Urbanismo</h3>
+            <h3 className="textimgina monserat">Urbanismo</h3>
             </div>
             
           
@@ -30,7 +30,7 @@ const page2 = () => {
           
             <div className="card-front">
             <img className='imagen3' src={image3} alt="" />
-            <h3 className="textimgina">Vivienda</h3>
+            <h3 className="textimgina monserat">Vivienda</h3>
             </div>
         
           
@@ -40,7 +40,7 @@ const page2 = () => {
           
             <div className="card-front">
             <img className='imagen3' src={image4} alt="" />
-            <h3 className="textimgina">Comercio</h3>
+            <h3 className="textimgina monserat">Comercio</h3>
             </div>
             
           
@@ -49,14 +49,14 @@ const page2 = () => {
         <div className="card">  
             <div className="card-front">
             <img className='imagen3' src={image5} alt="" />
-            <h3 className="textimgina">Interiores</h3>
+            <h3 className="textimgina monserat">Interiores</h3>
             </div>
         </div>
       </div>
       <div className="espesiood">
 
-      <h1>¿Tantas ideas te han inspirado?</h1>
-      <button className='hablame ' onClick={handleWhatsAppClick}>HAGAMOSLO REALIDAD</button>
+      <p className="monserat titulos">¿Tantas ideas te han inspirado?</p>
+      <button className='hablame bonscript' onClick={handleWhatsAppClick}>HAGAMOSLO REALIDAD</button>
       </div>
     </div>
   );

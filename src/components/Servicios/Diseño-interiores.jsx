@@ -33,14 +33,14 @@ const interiores = () => {
       <Nav />
       <div className="separate">
         <div className="textoyuuu tero">
-          <h1 className="texttt">DISEÑO DE INTERIORES</h1>
-          <p>
+          <h1 className="monserat titulos">DISEÑO DE INTERIORES</h1>
+          <p className="bonscript">
             Entendemos que el diseño de interiores va más allá de la estética;
             es una expresión de la personalidad y las necesidades del cliente.
             Nuestro enfoque colaborativo comienza escuchándote atentamente para
             entender tus aspiraciones y estilo de vida.
           </p>
-          <button onClick={handleWhatsAppClick} className="hablame tp">HABLA CON UN ASESOR</button>
+          <button onClick={handleWhatsAppClick} className="hablame tp bonscript">HABLA CON UN ASESOR</button>
           <div className="generalbuton">
             <div className="atencion">
               <div className="redes">

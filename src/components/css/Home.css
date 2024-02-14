@@ -93,7 +93,7 @@ p{
   
   .contentimage button {
     padding: 10px;
-    background-color: #333;
+    background-color: #000000;
     color: white;
     border-radius: 1rem;
     border: none;
@@ -140,8 +140,8 @@ p{
   }
   
   .texttt{
-    margin-bottom: 10%;
-    width: 90%;
+    padding-bottom: 10%;
+    width: 75%;
   }
 
 
@@ -208,9 +208,9 @@ p{
 
 /* Efecto hover */
 .hablame:hover {
-    background-color: #272727b8; /* Cambia el color de fondo al pasar el ratón */
+    background-color: #000000e2; /* Cambia el color de fondo al pasar el ratón */
     color: #ffffff; /* Cambia el color del texto al pasar el ratón */
-    border-color: #333333; /* Cambia el color del borde al pasar el ratón */
+    border-color: #353535; /* Cambia el color del borde al pasar el ratón */
 }
 
 @media screen and (max-width: 768px) {
@@ -389,9 +389,19 @@ p{
     width: 90%;
 }
 
+.redess{
+  top: 140px;
+  left: 6%;
+  display: flex;
+  justify-content: space-around;
+  width: 200px;
+  position: absolute;
+}
+
+
 
 .redes{
-    top: 112.5%;
+    top: -50px;
     left: 6%;
     display: flex;
     justify-content: space-around;
@@ -402,12 +412,13 @@ p{
 .face{
     border-radius: 50%;
     padding: 10px;
-    background-color: #333333;
+    background-color: #000000;
+    border: 1px solid #ffffff;
 }
 
 .atencion{
 
-    transform: translatey(220px);
+    transform: translatey(150px);
 }
 
 
@@ -439,7 +450,8 @@ p{
     padding: 6px;
     font-size: medium;
     color: white;
-    background-color: #333333;
+    background-color: #000000;
+    font-family: 'Bahnschrift Light Condensed', sans-serif;
     border: none;
     transition: background-color 0.3s ease; /* Agregar una transición suave para el cambio de color */
   }
@@ -462,4 +474,29 @@ p{
     opacity: 1;
     transform: translateY(0);
   }
+
+  .titulos{
+    font-size: 35px;
+  }
+
+  .subss{
+    font-size: 30px;
+  }
+
+  .monserat {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800; /* Peso ExtraBold */
+    font-style: normal;
+  }
   
+
+  .bonscript{
+    font-family: 'Bahnschrift Light Condensed', sans-serif;
+    font-size: 23px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+  
+  .mine{
+    font-size: 19px;
+  }

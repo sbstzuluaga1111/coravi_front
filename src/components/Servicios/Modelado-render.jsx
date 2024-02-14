@@ -33,14 +33,14 @@ const modelado = () => {
       <Nav />
       <div className="separate">
         <div className="textoyuuu tero">
-          <h1 className="texttt">MODELADO Y RENDERIZADO</h1>
-          <p>
+          <h1 className="monserat titulos">MODELADO Y RENDERIZADO</h1>
+          <p className="bonscript">
             Creemos que la visualización impactante es esencial para la
             comprensión y la toma de decisiones informadas. Permítenos ser tu
             socio en la creación de experiencias visuales que no solo cumplen
             con estándares profesionales, sino que también inspiran y cautivan.
           </p>
-          <button onClick={handleWhatsAppClick} className="hablame tp">HABLA CON UN ASESOR</button>
+          <button onClick={handleWhatsAppClick} className="hablame tp bonscript">HABLA CON UN ASESOR</button>
           <div className="generalbuton">
             <div className="atencion">
               <div className="redes">

@@ -73,9 +73,9 @@ const Home = () => {
 
 
         <div className='textoyu'> 
-        <p>DAR EL PRIMER PASO ES GRATIS</p>
-        <h1 className='texttt'>EXCLUSIVIDAD HECHA ESPACIO, DISEÑADO PARA TI.</h1>
-        <button onClick={handleWhatsAppClick} className='hablame'>HABLACON UN ASESOR</button>
+        <p className='bonscript'>DAR EL PRIMER PASO ES GRATIS</p>
+        <p className='texttt monserat titulos'>EXCLUSIVIDAD HECHA ESPACIO, DISEÑADO PARA TI.</p>
+        <button onClick={handleWhatsAppClick} className='hablame bonscript'>HABLACON UN ASESOR</button>
         </div> 
 
         <div className='imacontent'>
@@ -83,12 +83,11 @@ const Home = () => {
           <img className='imagen1' src={imagen1} alt="" />
           <div className='contentimage'>
           <div>
-          <h2>Nuestra inspiracion en el mundo</h2>
-          <br />
-          <p>Esplora nuestra lista de referentes internacionles</p>
+          <p className='monserat subss'>Nuestra inspiracion en el mundo</p>
+          <p className='bonscript'>Esplora nuestra lista de referentes internacionles</p>
           </div>
           <NavLink to="/explora-el-mundo">
-          <button>EXPLORA EL MUNDO</button>
+          <button className='bonscript'>EXPLORA EL MUNDO</button>
           </NavLink>
           
           </div>

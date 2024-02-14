@@ -35,8 +35,8 @@ const Servicios = () => {
     
     <div ref={serviciosRef} className='contentt fade-out'>
 <div className='textoyuu'> 
-<p className='texttt'>DAR EL PRIMER PASO ES GRATIS</p>
-<h1 >TODO LO QUE NECESITAS, LO ENCUENTRAS AQUÍ.</h1>
+<p className='bonscript'>NUESTROS SERVICIOS</p>
+<p className='monserat titulos' >TODO LO QUE NECESITAS, LO ENCUENTRAS AQUÍ.</p>
 </div> 
 
 <div className='containerimgs'>

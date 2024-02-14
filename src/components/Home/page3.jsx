@@ -65,22 +65,22 @@ const Servicios = () => {
       
       <div className="contenttt" ref={ref}>
         <div className="textoyuuu">
-          <p>ARQUITECTURA - MOBILIARIO - CONSTRUCCIÓN - INVERSIONES</p>
-          <h1 className="texttt">TODO EN UN SOLO LUGAR</h1>
+          <p className="bonscript">ARQUITECTURA - MOBILIARIO - CONSTRUCCIÓN - INVERSIONES</p>
+          <h1 className="monserat titulos">TODO EN UN SOLO LUGAR</h1>
 
-          <p>RECIBE LAS OFERTAS ANTES QUE NADIE</p>
+          <p className="bonscript">RECIBE LAS OFERTAS ANTES QUE NADIE</p>
           
-          <button onClick={openModal} className="hablame">SUSCRIBETE GRATIS</button>
+          <button onClick={openModal} className="hablame bonscript">SUSCRIBETE GRATIS</button>
           <Suscripcion modalIsOpen={modalIsOpen} closeModal={closeModal} />
-          <button onClick={handleWhatsAppClick} className="hablame muvet">NUESTRO PORTAFOLIO</button>
+          <button onClick={handleWhatsAppClick} className="hablame muvet bonscript">NUESTRO PORTAFOLIO</button>
           <div className="generalbuton">
             <div className="atencion">
-              <h3>Horario de atención</h3>
+              <p className="monserat">Horario de atención</p>
               <div className="center">
-                <h5>Lun a Vie: 8:00 am - 7:00pm</h5>
-                <h5>Sab - Dom: 8:00 am - 1:00pm</h5>
+                <p className="bonscript mine">Lun a Vie: 8:00 am - 7:00pm</p>
+                <p className="bonscript mine">Sab - Dom: 8:00 am - 1:00pm</p>
               </div>
-              <div className="redes">
+              <div className="redess">
                 <button onClick={handleWhatsAppClick1} className="watsappbutton">
                   <img className="watsappimaa" src={insta} alt="" />
                 </button>

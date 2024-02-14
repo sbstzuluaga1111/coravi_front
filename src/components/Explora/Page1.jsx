@@ -13,9 +13,9 @@ const Page1 = () => {
           </div>
           <div className='overlay'></div>
           <div className='textoSuperpuesto'>
-            <h2>El mundo es nuestro libro de ideas</h2>
-            <h4>Explora todo nuestro grupo de referentes 
-en ARCHDAILY</h4>
+            <p className='monserat titulos'>El mundo es nuestro libro de ideas</p>
+            <p className='bonscript'>Explora todo nuestro grupo de referentes 
+en ARCHDAILY</p>
           </div>
         </div>
      

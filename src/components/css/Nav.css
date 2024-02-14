@@ -1,5 +1,6 @@
 .navbar.navbar-dark.bg-dark.fixed-top{
-  height: 80px;
+  height: 110px;
+  background-color: #000000 !important;
 }
 
 .Nav{
@@ -11,9 +12,11 @@
 .nav-link-with-underline {
   position: relative;
   overflow: hidden;
-  font-family: Bahnschrift;
-  font-size:medium;
+  font-family: 'Bahnschrift Light Condensed', sans-serif;
+  font-size: 18px;
 }
+
+
 
 .btn-link{
   text-decoration: none;
@@ -119,6 +122,7 @@ a{
   position: relative;
   margin-left: 50%;
   height: 100%;
+  
 }
 
 .hizz::before {
@@ -129,7 +133,7 @@ a{
   height: 100%;
   width: 1.5px;
   background: repeating-linear-gradient(to bottom, #000000, #000000 12px, transparent 12px, transparent 25px);
-  content: '\00a0';
+  
 }
 
 
@@ -148,11 +152,15 @@ a{
   height: 100%;
   width: 1.5px;
   background: repeating-linear-gradient(to bottom, #000000, #000000 12px, transparent 12px, transparent 25px);
-  content: '\00a0';
+  
 }
 
 
-
+.colado{
+  font-family: 'Bahnschrift Light Condensed', sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+}
 
 .nav-link-with-underline1 {
   position: relative;
@@ -265,16 +273,18 @@ li {
 .logo-container {
   display: flex;
   align-items: center; /* Alinea verticalmente al centro */
-  
+  font-size: 40px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 800;
+  font-style: normal;
   padding: 0%;
   margin: 0%;
 }
 
 .logo {
-  padding: 5px; /* Ajusta según tus preferencias */
   margin: 0%;
-  width: 45px;
-  height: 45px;
+  width: 75px;
+  height: 75px;
   transition: box-shadow 0.3s ease, width 0.3s ease; /* Agrega transición para suavizar el cambio */
 }
 
@@ -288,9 +298,11 @@ li {
 }
 
 .textitt{
+  transform: translateY(-10px) translateX(20px);
   padding: 0%;
   margin: 0%;
-  font-size: 15px;
+  font-family: 'Bahnschrift Light Condensed', sans-serif;
+  font-size: 17px;
 }
 
 
@@ -299,9 +311,7 @@ li {
   padding: 0%;
 }
 
-h3{
-  transform: translateY(6px);
-}
+
 
 
 

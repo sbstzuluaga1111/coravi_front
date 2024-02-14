@@ -33,15 +33,15 @@ const Proyectos = () => {
       <Nav />
       <div className="separate">
         <div className="textoyuuu tero">
-          <h1 className="texttt">DISEÑO DE PROYECTOS</h1>
-          <p>
+          <h1 className="monserat titulos">DISEÑO DE PROYECTOS</h1>
+          <p className="bonscript">
             En nuestra esencia está la comprensión profunda de tus necesidades y
             aspiraciones. Trabajamos en estrecha colaboración contigo para
             capturar la esencia de tu visión y traducirla en diseños
             arquitectónicos que no solo cumplen con requisitos prácticos, sino
             que también inspiran.{" "}
           </p>
-          <button onClick={handleWhatsAppClick} className="hablame tp">HABLA CON UN ASESOR</button>
+          <button onClick={handleWhatsAppClick} className="hablame tp bonscript">HABLA CON UN ASESOR</button>
           <div className="generalbuton">
             <div className="atencion">
               <div className="redes">

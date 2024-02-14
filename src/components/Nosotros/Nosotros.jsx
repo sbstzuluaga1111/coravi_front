@@ -16,7 +16,7 @@ const Nosotros = () => {
           </div>
           <div className='overlay'></div>
           <div className='textoSuperpuesto'>
-            <h2>Un mundo arquitectonico reservado para aquellos que buscan la excelencia</h2>
+            <p className='monserat titulos'>Un mundo arquitectonico reservado para aquellos que buscan la excelencia</p>
           </div>
         </div>
      

@@ -41,7 +41,7 @@ const Nav = () => {
   <button className="navbar-brand btn btn-link logotipot">
     <div className="logo-container">
       <img className='logo' src={logo} alt=''></img>
-      <h3>CORAVI</h3>
+      <div>CORAVI</div> 
     </div>
     <div>
       <p className='textitt'>Arquitectura & soluciones</p>
@@ -79,44 +79,44 @@ const Nav = () => {
       <div className='hiz'>
       <li>
         <NavLink to="/diseño-proyecto" className="navbar-brand btn btn-link nav-link-with-underline1 colado">
-          <div>DISEÑO DE PROYECTO</div>
+          <div className='colado'>DISEÑO DE PROYECTO</div>
         </NavLink>
       </li>
       <li>
         <NavLink to="/diseño-interiores" className="navbar-brand btn btn-link nav-link-with-underline1 colado">
-          <div>DISEÑO DE INTERIORES</div>
+          <div className='colado'>DISEÑO DE INTERIORES</div>
         </NavLink>
       </li>
       <li>
         <NavLink to="/diseño-mobiliario" className="navbar-brand btn btn-link nav-link-with-underline1 colado">
-          <div>DISEÑO DE MOBILIARIO</div>
+          <div className='colado'>DISEÑO DE MOBILIARIO</div>
         </NavLink>
       </li>
       <li>
         <NavLink to="/modelado-render" className="navbar-brand btn btn-link nav-link-with-underline1 colado">
-          <div>MODELADO Y RENDER</div>
+          <div className='colado'>MODELADO Y RENDER</div>
         </NavLink>
       </li>
       </div>
       <div className='hizz'>
       <li>
         <NavLink to="/digitacion" className="navbar-brand btn btn-link nav-link-with-underline1 colado">
-          <div>DIGITACIÓN</div>
+          <div className='colado'>DIGITACIÓN</div>
         </NavLink>
       </li>
       <li>
         <NavLink to="/construccion" className="navbar-brand btn btn-link nav-link-with-underline1 colado">
-          <div>CONSTRUCCIÓN</div>
+          <div className='colado'>CONSTRUCCIÓN</div>
         </NavLink>
       </li>
       <li>
         <NavLink to="/inmobiliaria" className="navbar-brand btn btn-link nav-link-with-underline1 colado">
-          <div>INMOBILIARIA</div>
+          <div className='colado'>INMOBILIARIA</div>
         </NavLink>
       </li>
       <li>
         <NavLink to="/asesoria" className="navbar-brand btn btn-link nav-link-with-underline1 colado">
-          <div>ASESORÍA</div>
+          <div className='colado'>ASESORÍA</div>
         </NavLink>
       </li></div>
     </ul>

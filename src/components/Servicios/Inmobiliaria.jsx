@@ -33,14 +33,14 @@ const Inmobiliaria = () => {
       <Nav />
       <div className="separate">
         <div className="textoyuuu tero">
-          <h1 className="texttt">VENTA DE PROPIEDADES</h1>
-          <p>
+          <h1 className="monserat titulos">VENTA DE PROPIEDADES</h1>
+          <p className="bonscript">
             Nuestro compromiso va dirigido a convertir sueños de hogar y
             oportunidades de inversión en experiencias tangibles, guiando a
             nuestros clientes a través del proceso con profesionalismo y
             atención personalizada.
           </p>
-          <button onClick={handleWhatsAppClick} className="hablame tp">HABLA CON UN ASESOR</button>
+          <button onClick={handleWhatsAppClick} className="hablame tp bonscript">HABLA CON UN ASESOR</button>
           <div className="generalbuton">
             <div className="atencion">
               <div className="redes">

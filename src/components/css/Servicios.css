@@ -52,7 +52,8 @@ border: white solid;
 
 
 .tero{
-    padding: 5%;
+    transform: translateY(-80px);
+    padding: 2%;
 }
 
 .muvet{

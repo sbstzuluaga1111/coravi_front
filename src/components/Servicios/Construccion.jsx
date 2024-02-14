@@ -33,11 +33,11 @@ const construccion = () => {
       <Nav />
       <div className="separate">
         <div className="textoyuuu tero">
-          <h1 className="texttt">CONSTRUCCIÓN Y ACABADOS</h1>
-          <p>
+          <h1 className="monserat titulos">CONSTRUCCIÓN Y ACABADOS</h1>
+          <p className="bonscript">
           sólidas y estéticamente impresionantes.
           </p>
-          <button onClick={handleWhatsAppClick} className="hablame tp">HABLA CON UN ASESOR</button>
+          <button onClick={handleWhatsAppClick} className="hablame tp bonscript">HABLA CON UN ASESOR</button>
           <div className="generalbuton">
             <div className="atencion">
               <div className="redes">

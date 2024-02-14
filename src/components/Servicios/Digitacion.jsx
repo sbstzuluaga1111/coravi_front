@@ -33,15 +33,15 @@ const digitacion = () => {
       <Nav />
       <div className="separate">
         <div className="textoyuuu tero">
-          <h1 className="texttt">DIGITACIÓN Y PRESENTACIÓN</h1>
-          <p>
+          <h1 className="monserat titulos">DIGITACIÓN Y PRESENTACIÓN</h1>
+          <p className="bonscript">
             Entendemos que la calidad de la documentación es esencial para el
             progreso sin problemas de cualquier proyecto arquitectónico.
             Permítenos ser tu socio en la creación de documentos que no solo
             cumplen con estándares profesionales, sino que también impulsan la
             eficiencia y la comprensión clara del diseño.
           </p>
-          <button onClick={handleWhatsAppClick} className="hablame tp">HABLA CON UN ASESOR</button>
+          <button onClick={handleWhatsAppClick} className="hablame tp bonscript">HABLA CON UN ASESOR</button>
           <div className="generalbuton">
             <div className="atencion">
               <div className="redes">

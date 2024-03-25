@@ -1,111 +1,98 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import { NavLink } from 'react-router-dom';
-import 'bootstrap/dist/css/bootstrap.min.css';
-import 'bootstrap/dist/js/bootstrap.bundle.min.js';
+import './css/Nav.css';
 import SugerenciasModal from './Sugerencias/Sugerencias';
 import Cita from './Agenda/Cita';
-import './css/Nav.css';
-
 
 const Nav2 = () => {
+  const [showSugerenciasModal, setShowSugerenciasModal] = useState(false);
+  const [showSugerenciasModal1, setShowSugerenciasModal1] = useState(false);
+  const [showMenu, setShowMenu] = useState(false);
+  const menuRef = useRef(null);
 
-    const [showSugerenciasModal, setShowSugerenciasModal] = useState(false);
-    const [showSugerenciasModal1, setShowSugerenciasModal1] = useState(false);
+  useEffect(() => {
+    // Agregar el manejador de eventos para cerrar el menú al hacer clic fuera de él
+    const handleClickOutside = (event) => {
+      if (menuRef.current && !menuRef.current.contains(event.target)) {
+        setShowMenu(false);
+      }
+    };
 
-    const handleSugerenciasClick = () => {
-      setShowSugerenciasModal(true);
+    // Agregar el manejador de eventos al documento
+    document.addEventListener('mousedown', handleClickOutside);
+
+    // Limpiar el manejador de eventos al desmontar el componente
+    return () => {
+      document.removeEventListener('mousedown', handleClickOutside);
     };
-  
-    const handleSugerenciasClick1 = () => {
-      setShowSugerenciasModal1(true);
-    };
-  
-  
+  }, []);
+
+  const handleSugerenciasClick = () => {
+    setShowSugerenciasModal(true);
+    setShowMenu(false); // Ocultar el menú cuando se abre SugerenciasModal
+  };
+
+  const handleSugerenciasClick1 = () => {
+    setShowSugerenciasModal1(true);
+    setShowMenu(false); // Ocultar el menú cuando se abre Cita
+  };
+
+  const toggleMenu = () => {
+    setShowMenu(!showMenu);
+    setShowSugerenciasModal(false); // Ocultar SugerenciasModal cuando se abre/cierra el menú
+    setShowSugerenciasModal1(false); // Ocultar Cita cuando se abre/cierra el menú
+  };
 
   return (
-    <div className="offcanvas offcanvas-end text-bg-dark" tabIndex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
-            <div className="offcanvas-header">
-              <h5 className="offcanvas-title" id="offcanvasDarkNavbarLabel">Menu</h5>
-              <button type="button" className="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-            </div>
-            <div className="offcanvas-body">
-              <ul className="navbar-nav flex-grow-1">
-              <li className="nav-item">
-                  <NavLink to="/" className="nav-link">Inicio</NavLink>
-                </li>
-
-            <li className="nav-item dropdown">
-            <div className="nav-link dropdown-toggle"  role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              Servicios
-            </div>
-            <ul className="dropdown-menu dropdown-menu-dark">
-              <NavLink to="/diseño-proyecto" className="navbar-brand btn btn-link nav-link-with-underline">
-                <div className='servi'> - DISEÑO DE PROYECTO</div>
-              </NavLink>
-              <li>
-                <hr className="dropdown-divider"/>
-              </li>
-              <NavLink to="/diseño-interiores" className="navbar-brand btn btn-link nav-link-with-underline">
-                <div className='servi'> - DISEÑO DE INTERIORES</div>
-              </NavLink>
-              <li>
-                <hr className="dropdown-divider"/>
-              </li>
-              <NavLink to="/diseño-mobiliario" className="navbar-brand btn btn-link nav-link-with-underline">
-                <div className='servi'> - DISEÑO DE MOBILIARIO</div>
-              </NavLink>
-              <li>
-                <hr className="dropdown-divider"/>
-              </li>
-              <NavLink to="/modelado-render" className="navbar-brand btn btn-link nav-link-with-underline">
-                <div className='servi'> - MODELADO Y RENDER</div>
-              </NavLink>
-              <li>
-                <hr className="dropdown-divider"/>
-              </li>
-              <NavLink to="/digitacion" className="navbar-brand btn btn-link nav-link-with-underline" >
-                <div className='servi'> - DIGITACIÓN</div>
-              </NavLink>
-              <li>
-                <hr className="dropdown-divider"/>
-              </li>
-              <NavLink to="/construccion" className="navbar-brand btn btn-link nav-link-with-underline">
-                <div className='servi'> - CONSTRUCCIÓN</div>
-              </NavLink>
-              <li>
-                <hr className="dropdown-divider"/>
-              </li>
-              <NavLink to="/inmobiliaria" className="navbar-brand btn btn-link nav-link-with-underline">
-                <div className='servi'> - INMOVILIARIA</div>
-              </NavLink>
-              <li>
-                <hr className="dropdown-divider"/>
-              </li>
-              <NavLink to="/asesoria" className="navbar-brand btn btn-link nav-link-with-underline" >
-                <div className='servi'> - ASESORIA</div>
-              </NavLink>
-            </ul>
-          </li>
-
-
-                <li className="nav-item">
-                  <NavLink to="/nosotros" className="nav-link">Nosotros</NavLink>
-                </li>
-                <li className="nav-item">
-                <button className="nav-link" onClick={handleSugerenciasClick1}>Agenda tu cita</button>
-                </li>
-                <li className="nav-item">
-                <button className="nav-link" onClick={handleSugerenciasClick}>Comentarios</button>
-                </li>
-              </ul>
-            </div>
-
-
-
-            {showSugerenciasModal && <SugerenciasModal onClose={() => setShowSugerenciasModal(false)} />}
+    <div>
+      <button className="navbar-toggler d-md-none" onClick={toggleMenu}>
+        <span className={`navbar-toggler-icon ${showMenu ? 'show' : ''}`}></span>
+      </button>
+      <div className={`Nav2 ${showMenu ? 'show' : ''}`} ref={menuRef}>
+        <div className={`navbar-collapse ${showMenu ? 'show' : ''}`}>
+          <ul className="navbar-nav">
+            <li className="nav-item">
+              <NavLink to="/" className="nav-link" onClick={() => setShowMenu(false)}>Inicio</NavLink>
+            </li>
+            <li className="nav-item">
+              <NavLink to="/nosotros" className="nav-link" onClick={() => setShowMenu(false)}>Nosotros</NavLink>
+            </li>
+            <li className="nav-item">
+              <NavLink to="/diseño-proyecto" className="nav-link" onClick={() => setShowMenu(false)}>Diseño de Proyecto</NavLink>
+            </li>
+            <li className="nav-item">
+              <NavLink to="/diseño-interiores" className="nav-link" onClick={() => setShowMenu(false)}>Diseño de Interiores</NavLink>
+            </li>
+            <li className="nav-item">
+              <NavLink to="/diseño-mobiliario" className="nav-link" onClick={() => setShowMenu(false)}>Diseño de Mobiliario</NavLink>
+            </li>
+            <li className="nav-item">
+              <NavLink to="/modelado-render" className="nav-link" onClick={() => setShowMenu(false)}>Modelado y Render</NavLink>
+            </li>
+            <li className="nav-item">
+              <NavLink to="/digitacion" className="nav-link" onClick={() => setShowMenu(false)}>Digitación</NavLink>
+            </li>
+            <li className="nav-item">
+              <NavLink to="/construccion" className="nav-link" onClick={() => setShowMenu(false)}>Construcción</NavLink>
+            </li>
+            <li className="nav-item">
+              <NavLink to="/inmobiliaria" className="nav-link" onClick={() => setShowMenu(false)}>Inmobiliaria</NavLink>
+            </li>
+            <li className="nav-item">
+              <NavLink to="/asesoria" className="nav-link" onClick={() => setShowMenu(false)}>Asesoría</NavLink>
+            </li>
+            <li className="nav-item">
+              <button className="nav-link d-md-none" onClick={handleSugerenciasClick1}>Agenda tu cita</button>
+            </li>
+            <li className="nav-item">
+              <button className="nav-link d-md-none" onClick={handleSugerenciasClick}>Comentarios</button>
+            </li>
+          </ul>
+        </div>
+      </div>
+      {showSugerenciasModal && <SugerenciasModal onClose={() => setShowSugerenciasModal(false)} />}
       {showSugerenciasModal1 && <Cita onClose={() => setShowSugerenciasModal1(false)} />}
-
-          </div>
+    </div>
   );
 }
 

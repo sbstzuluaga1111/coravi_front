@@ -4,13 +4,14 @@ import insta from "../../img/instagram.png";
 import face from "../../img/fase.png";
 import corre from "../../img/corre.png";
 import "../../App.css";
+import '../css/Home3.css';
 import imagen6 from '../../img/PAGINA WEB/home6.jpg';
 import imagen7 from '../../img/PAGINA WEB/home7.jpg';
 import imagen8 from '../../img/PAGINA WEB/home8.jpg';
 import imagen9 from '../../img/PAGINA WEB/home9.jpg';
 import Suscripcion from "../Suscripcion/Suscripcion";
 
-const Servicios = () => {
+const Page3 = () => {
   const ref = useRef();
 
   const [modalIsOpen, setModalIsOpen] = useState(false);
@@ -147,4 +148,4 @@ const Servicios = () => {
   );
 };
 
-export default Servicios;
+export default Page3;

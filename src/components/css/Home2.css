@@ -1,0 +1,35 @@
+.contentt{
+    padding: 2%;
+    width: 100%;
+    min-height: 98vh;
+    display: flex;
+}
+
+.imagen2 {
+    width: 18rem;
+    height: 18rem; 
+    border-radius: 1.5rem;
+  }
+  
+
+  .bututu {
+    bottom: 100px;
+    position: absolute;
+    width: 70%;
+    border-radius: 1rem;
+    padding: 4px;
+    font-size: medium;
+    color: white;
+    background-color: #000000;
+    font-family: 'Bahnschrift Light Condensed', sans-serif;
+    border: none;
+    transition: background-color 0.3s ease;
+}
+
+  
+  .bututu:hover {
+    background-color: #ffffff;
+    border: solid 2px #000000;
+    padding: 4px;
+    color: black;
+  }  

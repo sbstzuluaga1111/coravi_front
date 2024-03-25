@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Home from './components/Home/Home';
 import Nosotros from './components/Nosotros/Nosotros';
 import Diseñoproyecto from './components/Servicios/Diseño-proyecto';
@@ -17,20 +17,18 @@ function App() {
   return (
     <Router>
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path='/nosotros' element={<Nosotros/>}></Route>
-
-        <Route path='/explora-el-mundo' element={<Explora/>}></Route>
-        <Route path='/diseño-proyecto' element={<Diseñoproyecto/>}></Route>
-        <Route path='/diseño-interiores' element={<Diseñointerior/>}></Route>
-        <Route path='/diseño-mobiliario' element={<Diseñomobiliario/>}></Route>
-        <Route path='/modelado-render' element={<Modeladorender/>}></Route>
-        <Route path='/digitacion' element={<Digitacion/>}></Route>
-        <Route path='/construccion' element={<Construccion/>}></Route>
-        <Route path='/inmobiliaria' element={<Inmobiliaria/>}></Route>
-        <Route path='/asesoria' element={<Asesoria/>}></Route>
-
-        <Route path='*' element={<NotFound />} />
+        <Route path="/" element={<Home />} exact />
+        <Route path="/nosotros" element={<Nosotros />} />
+        <Route path="/explora-el-mundo" element={<Explora />} />
+        <Route path="/diseño-proyecto" element={<Diseñoproyecto />} />
+        <Route path="/diseño-interiores" element={<Diseñointerior />} />
+        <Route path="/diseño-mobiliario" element={<Diseñomobiliario />} />
+        <Route path="/modelado-render" element={<Modeladorender />} />
+        <Route path="/digitacion" element={<Digitacion />} />
+        <Route path="/construccion" element={<Construccion />} />
+        <Route path="/inmobiliaria" element={<Inmobiliaria />} />
+        <Route path="/asesoria" element={<Asesoria />} />
+        <Route path="*" element={<NotFound />} />
       </Routes>
     </Router>
   );

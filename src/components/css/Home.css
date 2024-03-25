@@ -1,112 +1,16 @@
-.content {
-    display: flex;
-    opacity: 0;
-    transform: translatex(-20px);
-    padding: 5%;
-    transition: opacity 1s ease-in-out, transform 1s ease-in-out;
-}
-
-.textoyu {
-    opacity: 0;
-    transform: translateX(20px);
-    transition: opacity 1s ease-in-out, transform 1s ease-in-out;
-}
-
-.visible .textoyu {
-    opacity: 1;
-    transform: translateX(-20px);
-}
-
-
-.contentimage{
- padding: 5%;       
-}
-
-
-p{
-    font-size: 20px;
-}
-
-.visible {
-    opacity: 1;
-    transform: translateY(0);
-}
 
 
 
-.contentt{
-    width: 100%;
-    padding: 4%;
-    display: flex;
-}
 
-.contenttt{
-    width: 100%;
-    padding: 4%;
-    display: flex;
-}
-
-.containerimgs {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin: 0%;
-    padding: 0%;
-  }
   
-  .imacontent {
-    
-    flex: 0 0 calc(50% - 2%);
-    margin: 1%;
-    text-align: center;
-  }
+ 
+
   
-  .imagen2 {
-    width: 320px; /* Ajusta el ancho de la imagen al 100% del contenedor */
-    height: 320px; /* Permite que la altura se ajuste proporcionalmente al ancho */
-    border-radius: 1.5rem;
-  }
   
-  .contentimage {
-    transform: translate(-50%, -50%);
-    text-align: end !important;
-    color: white;
-    width: 100%;
-    height: 580px;
-    max-width: 800px;
-    z-index: 1;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between; /* Distribuye los elementos verticalmente */
-    padding-top: 20px; /* Ajusta el espacio superior según tus necesidades */
-    padding-bottom: 20px; /* Ajusta el espacio inferior según tus necesidades */
-  }
   
-  .contentimage > div {
-    width: 100%;
-  }
   
-  .contentimage h2,
-  .contentimage p {
-    margin: 0;
-  }
   
-  .contentimage button {
-    padding: 10px;
-    background-color: #000000;
-    color: white;
-    border-radius: 1rem;
-    border: none;
-    transition: background-color 0.3s ease;
-  }
-  
-  .contentimage button:hover {
-    background-color: #ffffff;
-    border: solid 3px #000000;
-    padding: 7px;
-    color: black;
-  }
-  
+
   
   
  
@@ -129,20 +33,9 @@ p{
     transform: translateX(20px) translateY(-180px);
   }
 
-  .textoyuuu {
-    width: 80%;
-    padding: 1%;
-    text-align: start;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    transform: translateX(20px) translateY(-120px);
-  }
   
-  .texttt{
-    padding-bottom: 10%;
-    width: 75%;
-  }
+  
+
 
 
 .imacontent {
@@ -152,13 +45,7 @@ p{
 
 
 
-.imagen1 {
-    width: 100%;
-    max-width: 1000px;
-    height: 600px;
-    border-radius: 2rem;
-    display: block; /* Añadido para solucionar posible espacio en blanco debajo de la imagen */
-}
+
 
 .contentimage {
     position: absolute;
@@ -185,6 +72,7 @@ p{
   width: 100%;
   max-width: 800px; /* Ajusta el ancho máximo del contenido según tu diseño */
   z-index: 1; /* Asegura que el contenido esté sobre la imagen */
+  text-decoration: none;
 }
 
 .contentimage h2,
@@ -389,14 +277,6 @@ p{
     width: 90%;
 }
 
-.redess{
-  top: 140px;
-  left: 6%;
-  display: flex;
-  justify-content: space-around;
-  width: 200px;
-  position: absolute;
-}
 
 
 
@@ -416,10 +296,7 @@ p{
     border: 1px solid #ffffff;
 }
 
-.atencion{
 
-    transform: translatey(150px);
-}
 
 
 .contentt {
@@ -444,24 +321,7 @@ p{
     transform: translateX(0px) translateY(-180px);
   }
   
-  .bututu {
-    width: 60%;
-    border-radius: 1rem;
-    padding: 6px;
-    font-size: medium;
-    color: white;
-    background-color: #000000;
-    font-family: 'Bahnschrift Light Condensed', sans-serif;
-    border: none;
-    transition: background-color 0.3s ease; /* Agregar una transición suave para el cambio de color */
-  }
   
-  .bututu:hover {
-    background-color: #ffffff;
-    border: solid 2px #000000;
-    padding: 4px;
-    color: black;
-  }
   
 
   .contenttt {
@@ -476,7 +336,7 @@ p{
   }
 
   .titulos{
-    font-size: 35px;
+    font-size: 32px;
   }
 
   .subss{
@@ -490,12 +350,7 @@ p{
   }
   
 
-  .bonscript{
-    font-family: 'Bahnschrift Light Condensed', sans-serif;
-    font-size: 23px;
-    padding-top: 15px;
-    padding-bottom: 15px;
-  }
+
   
   .mine{
     font-size: 19px;

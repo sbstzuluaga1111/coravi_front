@@ -3,6 +3,7 @@
     justify-content: space-around;
     background-color: black;
     color: white;
+    width: 100%;
     min-height: 94.6vh;
 }
 
@@ -16,7 +17,7 @@
     }
 
     .servima {
-        width: 100% !important;
+        
         height: 50vh !important;
         object-fit: cover;
     }
@@ -48,12 +49,9 @@ border: white solid;
     height: 94.6vh;
   }
   
-
-
-
 .tero{
-    transform: translateY(-80px);
-    padding: 2%;
+    margin-top: 10%;
+    padding: 3%;
 }
 
 .muvet{
@@ -62,8 +60,10 @@ border: white solid;
 
 .containercarusel{
     position: relative;
-    width: 1000px;
-    height: 94.6vh;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
 }
 
 .susbcripcaru1{

@@ -8,7 +8,8 @@ import image1 from '../../img/PAGINA WEB/nosotros1.jpg'
 
 const Nosotros = () => {
   return (
-    <div><Nav></Nav>
+    <div>
+      <Nav></Nav>
     <div className='nosotros'>
         <div className='imagenNosotrosContainer'>
           <div className='imagenNosotros'>

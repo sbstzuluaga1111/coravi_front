@@ -27,8 +27,9 @@ const Asesoria = () => {
 
 
   return (
-    <div className="">
+    <div>
       <Nav />
+
       <div className="separate">
         <div className="textoyuuu tero">
           <h1 className="monserat titulos">ASESORIA ARQUITECTONICA</h1>
@@ -83,7 +84,7 @@ const Asesoria = () => {
   </Carousel.Item>
 </Carousel></div>
       </div>
-    </div>
+</div>
   );
 };
 

@@ -1,12 +1,13 @@
 import React, { useEffect, useRef } from 'react';
 import { NavLink } from 'react-router-dom';
 import '../../App.css';
+import '../css/Home2.css';
 import imagen2 from '../../img/PAGINA WEB/home2.jpg';
 import imagen3 from '../../img/PAGINA WEB/home3.jpg';
 import imagen4 from '../../img/PAGINA WEB/home4.jpg';
 import imagen5 from '../../img/PAGINA WEB/home5.jpg';
 
-const Servicios = () => {
+const Page2 = () => {
   const serviciosRef = useRef(null);
 
   const handleScroll = () => {
@@ -78,4 +79,4 @@ const Servicios = () => {
   );
 }
 
-export default Servicios;
+export default Page2;

@@ -1,0 +1,78 @@
+.contenttt{
+    width: 100%;
+    padding: 4%;
+    display: flex;
+}
+
+.containerimgs {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0%;
+    padding: 0%;
+  }
+
+  .contentimage button {
+    padding: 10px;
+    background-color: #000000;
+    color: white;
+    border-radius: 1rem;
+    border: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  .contentimage button:hover {
+    background-color: #ffffff;
+    border: solid 1px #000000;
+    color: black;
+  }
+  
+
+  .textoyuuu {
+    height: 100%;
+    width: 80%;
+    padding: 1%;
+    text-align: start;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .atencion{
+    transform: translatey(90px);
+    width: 500px;
+}
+
+.redess{
+    margin-top: 5%;
+    top: 135px;
+    left: 12%;
+    display: flex;
+    justify-content: space-around;
+    width: 200px;
+    position: absolute;
+  }
+  
+
+  @media screen and (max-width: 768px) {
+    .bonscript{
+       text-align: center;
+      }
+      .atencion{
+        padding: 0;
+        margin: 0;
+        transform: translatey(150px);
+        width: 100%;
+    }
+    .redess{
+        margin-top: 5%;
+        top: 150px;
+        left: 23%;
+        display: flex;
+        justify-content: space-around;
+        width: 50%;
+        position: absolute;
+      }
+      .titulos{
+        text-align: center;
+      }  
+  }  

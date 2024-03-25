@@ -29,7 +29,7 @@ const modelado = () => {
 
 
   return (
-    <div className="">
+    <div>
       <Nav />
       <div className="separate">
         <div className="textoyuuu tero">

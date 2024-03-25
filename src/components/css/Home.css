@@ -165,7 +165,9 @@
     }
       
     .hablame {
-        width: 100%; /* Ajusta el ancho del botón en pantallas más pequeñas */
+        width: 80%;
+        margin-left: 10%;
+        margin-right: 10%;
     }
 
     .visible .textoyu {
@@ -345,7 +347,7 @@
 
   .monserat {
     font-family: 'Montserrat', sans-serif;
-    font-weight: 800; /* Peso ExtraBold */
+    font-weight: 800;
     font-style: normal;
   }
   

@@ -222,7 +222,7 @@ li {
 }
 
 .textitt{
-  transform: translateY(-10px) translateX(10px);
+  transform: translateY(-10px) translateX(-7px);
   padding: 0%;
   margin: 0%;
   font-family: 'Bahnschrift Light Condensed', sans-serif;
@@ -250,7 +250,7 @@ p:active {
 }
 
 .Nav{
-  margin-bottom: 110px;
+  margin-bottom: 100px;
 }
 
 

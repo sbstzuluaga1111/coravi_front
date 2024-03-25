@@ -77,7 +77,7 @@ const Page3 = () => {
           <div className="generalbuton">
             <div className="atencion">
               <p className="monserat">Horario de atención</p>
-              <div className="center">
+              <div className="center atenciont">
                 <p className="bonscript mine">Lun a Vie: 8:00 am - 7:00pm</p>
                 <p className="bonscript mine">Sab - Dom: 8:00 am - 1:00pm</p>
               </div>

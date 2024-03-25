@@ -1,6 +1,6 @@
 .content {
     display: flex;
-    min-height: 100vh;
+    min-height: 80vh;
     align-items: center;
     justify-content: center;
     opacity: 0;
@@ -10,19 +10,17 @@
 
 .textoyu {
     opacity: 0;
-    transform: translateX(10px);
     transition: opacity 1s ease-in-out, transform 1s ease-in-out;
+    
 }
 
 .visible .textoyu {
     opacity: 1;
-    transform: translateX(-10px);
 }
 
 .imacontent {
   flex: 0 0 calc(50% - 2%);
-  transform: translateX(10px);
-  margin: 1%;
+  margin: 2%;
   text-align: center;
   opacity: 0; /* Hacer que el elemento sea inicialmente transparente */
   animation: aparecer 2s forwards; /* Definición de la animación */
@@ -59,10 +57,17 @@
     padding-bottom: 20px; /* Ajusta el espacio inferior según tus necesidades */
   }
 
-  .texttt{
+  .texttt {
     padding-bottom: 5%;
-    font-size: 30px;
-  }
+    font-size: 60px;
+    font-family: 'Montserrat', sans-serif; /* Fuente Montserrat */
+    color: #000000; /* Color negro */
+    font-weight: 1000;
+    line-height: 1.1; /* Ajusta este valor según tus necesidades */
+}
+
+
+
   
   .bonscript{
     font-family: 'Bahnschrift Light Condensed', sans-serif;
@@ -73,8 +78,61 @@
 
   .imagen1 {
     width: 100%;
-    
-    height: 600px;
-    border-radius: 2rem;
+    height: 36rem;
+    background-color: white;
     display: block;
+}
+
+@media screen and (max-width: 768px) {
+  .imagen1 {
+    height: 23rem;
+    
+}
+
+.textoyu {
+  display: flex;
+  justify-content: center;
+}
+
+.contentimage {
+  text-align: end !important;
+  
+}
+.subss{
+  font-size: 120%;
+}
+
+.texttt{
+  font-size: 130%;
+}
+
+p.bonscript.tel{
+  font-family: 'Bahnschrift Light Condensed', sans-serif;
+  font-size: 80%;
+  padding-top: 5px;
+  text-align: end;
+}
+
+p.bonscript{
+  font-family: 'Bahnschrift Light Condensed', sans-serif;
+  font-size: 80%;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  text-align: center;
+}
+
+button.bonscript{
+  font-size: 100%;
+}
+
+.content {
+  min-height: 70vh;
+ 
+}
+
+button.bonscript.tuto{
+  font-size: 80%;
+  padding: 10px;
+}
+
 }

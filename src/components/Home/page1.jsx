@@ -3,7 +3,7 @@ import { NavLink } from 'react-router-dom';
 import '../css/Home.css';
 import '../css/Home1.css';
 import '../../App.css';
-import imagen1 from '../../img/PAGINA WEB/home1.jpg';
+import imagen1 from '../../img/PAGINA WEB/home1.png';
 
 
 const Page1 = () => {
@@ -71,7 +71,7 @@ const Page1 = () => {
 
         <div className='textoyu'> 
         <p className='bonscript'>DAR EL PRIMER PASO ES GRATIS</p>
-        <p className='texttt monserat titulos'>EXCLUSIVIDAD HECHA ESPACIO, DISEÑADO PARA TI.</p>
+        <p className='texttt monserat titulos'>Exclusividad Hecha Espacio, Diseñado Para Ti.</p>
         <button onClick={handleWhatsAppClick} className='hablame bonscript'>HABLACON UN ASESOR</button>
         </div> 
 
@@ -81,10 +81,10 @@ const Page1 = () => {
           <div className='contentimage'>
           <div>
           <p className='monserat subss'>Nuestra inspiracion en el mundo</p>
-          <p className='bonscript'>Esplora nuestra lista de referentes internacionles</p>
+          <p className='bonscript tel'>Esplora nuestra lista de referentes internacionles</p>
           </div>
           <NavLink to="/explora-el-mundo">
-          <button className='bonscript'>EXPLORA EL MUNDO</button>
+          <button className='bonscript tuto'>EXPLORA EL MUNDO</button>
           </NavLink>
           
           </div>

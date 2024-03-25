@@ -55,7 +55,7 @@ const Nav = () => {
                 <div>CORAVI</div> 
               </div>
               <div>
-                <p className='textitt'>Arquitectura & soluciones</p>
+                <p className='textitt'>Diseño & Construciones</p>
               </div>
             </button>
           </NavLink>

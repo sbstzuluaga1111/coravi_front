@@ -72,7 +72,7 @@ const Page1 = () => {
         <div className='textoyu'> 
         <p className='bonscript'>DAR EL PRIMER PASO ES GRATIS</p>
         <p className='texttt monserat titulos'>Exclusividad Hecha Espacio, Diseñado Para Ti.</p>
-        <button onClick={handleWhatsAppClick} className='hablame bonscript'>HABLACON UN ASESOR</button>
+        <button onClick={handleWhatsAppClick} className='hablame bonscript talet'>HABLACON UN ASESOR</button>
         </div> 
 
         <div className='imacontent'>
@@ -81,7 +81,7 @@ const Page1 = () => {
           <div className='contentimage'>
           <div>
           <p className='monserat subss'>Nuestra inspiracion en el mundo</p>
-          <p className='bonscript tel'>Esplora nuestra lista de referentes internacionles</p>
+          <p className='bonscript tel'>Explora nuestra lista de referentes internacionles</p>
           </div>
           <NavLink to="/explora-el-mundo">
           <button className='bonscript tuto'>EXPLORA EL MUNDO</button>

@@ -65,10 +65,13 @@
         
     }
 
+  .talet{
+    transform:translateY(30px)
+  }
+
     .redess{
-        margin-top: 5%;
         top: 150px;
-        left: 5%;
+        left: 30px;
         display: flex;
         justify-content: space-around;
         width: 50%;

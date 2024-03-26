@@ -1,7 +1,7 @@
 .contentt{
     padding: 4%;
     width: 100%;
-    min-height: 98vh;
+    min-height: 80vh;
     display: flex;
     justify-content: center;
 }
@@ -22,8 +22,18 @@
   align-items: center;
   flex-direction: column;
   justify-content: center;
-  width: 90%;
+  width: 75%;
+  
 }
+
+.containerimgs > *:first-child {
+  margin-bottom: 10px; /* Cambia el valor según la separación que desees */
+}
+
+.containerimgs > *:last-child {
+  margin-top: 10px; /* Cambia el valor según la separación que desees */
+}
+
   
 
   .bututu {
@@ -47,3 +57,8 @@
     padding: 4px;
     color: black;
   }  
+
+  .pepooo{
+    margin-top: 10%;
+    font-size: 50px !important;
+  }

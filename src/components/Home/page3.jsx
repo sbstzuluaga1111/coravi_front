@@ -66,7 +66,7 @@ const Page3 = () => {
       
       <div className="contenttt" ref={ref}>
         <div className="textoyuuu">
-          <p className="bonscript">ARQUITECTURA - MOBILIARIO - CONSTRUCCIÓN - INVERSIONES</p>
+          <p className="bonscript tttit">ARQUITECTURA - MOBILIARIO - CONSTRUCCIÓN - INVERSIONES</p>
           <h1 className="monserat titulos">TODO EN UN SOLO LUGAR</h1>
 
           <p className="bonscript">RECIBE LAS OFERTAS ANTES QUE NADIE</p>

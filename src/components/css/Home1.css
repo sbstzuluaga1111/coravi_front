@@ -78,6 +78,7 @@
 
   .imagen1 {
     width: 100%;
+    border-radius: 2rem;
     height: 36rem;
     background-color: white;
     display: block;

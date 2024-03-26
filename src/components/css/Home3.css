@@ -76,6 +76,7 @@
       }
       .titulos{
         text-align: center;
+        font-size: 25px;
       }  
 
       .atenciont{
@@ -83,22 +84,48 @@
     }
 
     .textoyuuu {
-        height: 596px;
+        height: 556px;
       }
 
 
 
       .bututu {
-        bottom: 20px;
+        bottom: 50px;
         position: absolute;
-        width: 70%;
+        width: 80%;
         border-radius: 1rem;
-        padding: 4px;
-        font-size: 12px;
+        padding: 2px;
+        font-size: 10px;
         color: white;
         background-color: #000000;
         font-family: 'Bahnschrift Light Condensed', sans-serif;
         border: none;
         transition: background-color 0.3s ease;
     }
+
+    .contentt{
+      min-height: 70vh;
+  }
+
+  .contenttt{
+    min-height: 70vh;
+}
+
+.containerimgs {
+  width: 95%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+  
+.tttit{
+  font-size: 11px !important;
+  width: 100%;
+}
+
+.pepooo{
+  margin-top: 0%;
+  font-size: 28px !important;
+  line-height: 1.1;
+}
+
   }  

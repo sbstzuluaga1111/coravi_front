@@ -253,6 +253,15 @@ p:active {
   margin-bottom: 100px;
 }
 
+/* Estilos para el elemento Servicios */
+.nav-link.dropdown-toggle {
+  color: black; /* Letras negras */
+}
+
+/* Estilos para el fondo gris del elemento actualmente seleccionado */
+.nav-item.active .nav-link.dropdown-toggle {
+  background-color: #f0f0f0; /* Fondo gris claro */
+}
 
 
 .Nav2 {
@@ -337,4 +346,14 @@ p:active {
 /* Estilos adicionales si es necesario */
 .nav-link.d-md-none:hover {
   background-color: #f0f0f0; /* Cambia el color de fondo al pasar el cursor sobre el botón */
+}
+
+.version {
+  font-size: 20px !important;
+  color: black !important; /* Color de las letras */
+  position: absolute; /* Posición absoluta para estar debajo */
+  text-align: end;
+  bottom: 0; /* Alinea el texto en la parte inferior */
+  width: 90%; /* Ocupa todo el ancho del contenedor */
+  padding: 10px; /* Ajusta el espaciado interno */
 }

@@ -232,7 +232,7 @@
 
     .generalbuton{
         transform: translatey(-100px);
-        padding-bottom: 240px;
+        
     }
 
     .redes{
@@ -314,13 +314,13 @@
 
   .textoyuu {
     opacity: 0;
-    transform: translateX(20px) translateY(-180px);
+    transform: translateX(50px) translateY(-130px);
     transition: opacity 1s ease-in-out, transform 1.5s ease-in-out;
   }
   
   .textoyuu.fade-out-active {
     opacity: 1;
-    transform: translateX(0px) translateY(-180px);
+    transform: translateX(0px) translateY(-130px);
   }
   
   
@@ -355,5 +355,6 @@
 
   
   .mine{
-    font-size: 19px;
+    width: 100%!important;
+    font-size: 16px!important;
   }

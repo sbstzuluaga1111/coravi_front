@@ -37,7 +37,7 @@ const Page2 = () => {
     <div ref={serviciosRef} className='contentt fade-out'>
 <div className='textoyuu'> 
 <p className='bonscript'>NUESTROS SERVICIOS</p>
-<p className='monserat titulos' >TODO LO QUE NECESITAS, LO ENCUENTRAS AQUÍ.</p>
+<p className='monserat titulos pepooo' >Encuentra Todo Lo Que Necesitas.</p>
 </div> 
 
 <div className='containerimgs'>

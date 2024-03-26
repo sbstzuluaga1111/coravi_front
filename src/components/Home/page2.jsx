@@ -41,8 +41,8 @@ const Page2 = () => {
 </div> 
 
 <div className='containerimgs'>
-
-<div className='imacontent'>
+<div className='center'>
+<div className='imacontent4'>
   <img className='imagen2' src={imagen2} alt="" />
   <NavLink to="/diseño-proyecto" className='contentimage1'>
   <button className='bututu'>DISEÑO DE PROYECTOS</button>
@@ -51,26 +51,26 @@ const Page2 = () => {
 
 
 
-<div className='imacontent'>
+<div className='imacontent4'>
   <img className='imagen2' src={imagen4} alt="" />
   <NavLink to="/diseño-interiores" className='contentimage1'>
   <button className='bututu'>DISEÑO DE INTERIORES</button>
   </NavLink>
-</div>
-
-<div className='imacontent'>
+</div></div>
+<div className='center'>
+<div className='imacontent4'>
   <img className='imagen2' src={imagen3} alt="" />
   <NavLink to="/diseño-mobiliario" className='contentimage1'>
   <button className='bututu'>DISEÑO DE MOBILIARIO</button>
   </NavLink>
 </div>
 
-<div className='imacontent'>
+<div className='imacontent4'>
   <img className='imagen2' src={imagen5} alt="" />
   <NavLink to="/modelado-render" className='contentimage1'>
   <button className='bututu'>MODELADO Y RENDER</button>
   </NavLink>
-</div>
+</div></div>
 
 
 </div>

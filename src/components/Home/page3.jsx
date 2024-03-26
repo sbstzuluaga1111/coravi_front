@@ -97,7 +97,8 @@ const Page3 = () => {
         </div>
 
         <div className="containerimgs">
-          <div className="imacontent">
+       <div className="center">
+          <div className="imacontent4">
             <img
               className="imagen2"
               src={imagen6}
@@ -108,7 +109,7 @@ const Page3 = () => {
             </NavLink>
           </div>
 
-          <div className="imacontent">
+          <div className="imacontent4">
             <img
               className="imagen2"
               src={imagen7}
@@ -117,9 +118,11 @@ const Page3 = () => {
             <NavLink to="/construccion" className="contentimage1">
               <button className="bututu">CONSTRUCCIÓN</button>
             </NavLink>
-          </div>
+          </div></div>
 
-          <div className="imacontent">
+
+          <div className="center">
+          <div className="imacontent4">
             <img
               className="imagen2"
               src={imagen8}
@@ -131,7 +134,7 @@ const Page3 = () => {
           </div>
 
 
-          <div className="imacontent">
+          <div className="imacontent4">
             <img
               className="imagen2"
               src={imagen9}
@@ -140,6 +143,7 @@ const Page3 = () => {
             <NavLink to="/asesoria" className="contentimage1">
               <button className="bututu">ASESORIA</button>
             </NavLink>
+          </div>
           </div>
         </div>
       </div>

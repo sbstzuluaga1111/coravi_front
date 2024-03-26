@@ -1,15 +1,29 @@
 .contentt{
-    padding: 2%;
+    padding: 4%;
     width: 100%;
     min-height: 98vh;
     display: flex;
+    justify-content: center;
+}
+
+.imacontent4 {
+  text-align: center;
+  position: relative;
 }
 
 .imagen2 {
     width: 18rem;
     height: 18rem; 
     border-radius: 1.5rem;
-  }
+}
+
+.containerimgs {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  width: 90%;
+}
   
 
   .bututu {

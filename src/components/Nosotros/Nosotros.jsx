@@ -10,6 +10,7 @@ const Nosotros = () => {
   return (
     <div>
       <Nav></Nav>
+
     <div className='nosotros'>
         <div className='imagenNosotrosContainer'>
           <div className='imagenNosotros'>
@@ -17,7 +18,7 @@ const Nosotros = () => {
           </div>
           <div className='overlay'></div>
           <div className='textoSuperpuesto'>
-            <p className='monserat titulos'>Un mundo arquitectonico reservado para aquellos que buscan la excelencia</p>
+            <p className='monserat titulos textoSuperpuestoss'>Un mundo arquitectonico reservado para aquellos que buscan la excelencia</p>
           </div>
         </div>
      

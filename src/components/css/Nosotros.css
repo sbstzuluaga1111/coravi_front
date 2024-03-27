@@ -2,6 +2,12 @@
     background-color: #1A1A1A !important;
     color: white;
     text-align: center;
+    
+  }
+
+  .maritñ{
+    margin-left: 5%;
+    margin-right: 5%;
   }
 
  .explora{
@@ -9,6 +15,17 @@
   color: rgb(0, 0, 0);
   text-align: center;
  } 
+
+ .textoyuuuu {
+  height: 100%;
+  width: 80%;
+  padding: 1%;
+  text-align: start;
+  display: flex;
+  flex-direction: column;
+}
+
+
 
  .espesiood{
   margin-top: 5%;
@@ -23,7 +40,7 @@
   .imagenNosotrosContainer {
     position: relative;
     width: 100%;
-    height: 100vh;
+    height: 86vh;
     overflow: hidden;
   }
 
@@ -55,6 +72,66 @@
     .card {
       margin: 1%;
     }
+
+    .imagenNosotrosContainer {
+      height: 30vh;
+      
+    }
+
+    .textoSuperpuestoss{
+      font-size: 16px;
+    }
+
+    .talata{
+      justify-content: start !important;
+      text-align: start !important;
+      width: 90% !important;
+      font-size: 10.1px !important;
+      padding: 0;
+      margin: 0;
+      margin-left: 5%;
+      margin-right: 5%;
+    }
+
+    .tolotolo{
+      transform: translateY(50px);
+    }
+
+    .textoyuuuu {
+      height: 450px;
+      width: 100%;
+      padding: 1%;
+      
+    }
+
+
+    .modal-body {
+height: 500px;
+    }
+
+
+    .card-front,
+  .card-back {
+    width: 100% !important;
+    height: 350px !important;
+    
+  }
+
+  .imagen3{
+    width: 50px;
+    height: 5px;
+    
+  }
+
+  .tp{
+    margin-top: 5%;
+  }
+
+    .nosotrar{
+      border-radius: 3rem;
+      height: 300px;
+    }
+    
   }
   
   .textoSuperpuesto {
@@ -149,7 +226,7 @@
     border: 10px solid #ffffff;
     border-radius: 10px;
     justify-content: center;
-    font-size: 24px;
+    font-size: 20px;
     transform: rotateY(180deg);
   }
   

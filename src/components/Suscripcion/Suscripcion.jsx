@@ -50,7 +50,7 @@ const Suscripcion = ({ modalIsOpen, closeModal }) => {
       <Modal.Header className='exx' closeButton>
       </Modal.Header>
       <Modal.Body className="d-flex align-items-center justify-content-center modal-body aloja">
-        <div className='center '>
+        
           <div className="susbcripcaru1">
             <Carousel interval={2500} controls={false} indicators={false}>
               <Carousel.Item>
@@ -105,7 +105,7 @@ const Suscripcion = ({ modalIsOpen, closeModal }) => {
               Suscribirse
             </Button>
           </Form>
-        </div>
+        
       </Modal.Body>
     </Modal>
   );

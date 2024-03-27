@@ -25,23 +25,23 @@ const page3 = () => {
   };
 
   return (
-    <div className='App-header nosotros'>
+    <div className='maritñ nosotros'>
        <div className="separate nosotros padingg">
-        <div className="textoyuuu">
+        <div className="textoyuuuu">
           <h1 className=" monserat titulos">UN POCO MAS DE NOSOTROS</h1>
-          <p className="bonscript"><img className="watsappimaa black m-2" src={estrella} alt="" />
+          <p className="bonscript talata"><img className="watsappimaa black m-2" src={estrella} alt="" />
           Más de 15 años de experiencia.
           </p>
-          <p className="bonscript"><img className="watsappimaa black m-2" src={grupo} alt="" />
+          <p className="bonscript talata"><img className="watsappimaa black m-2" src={grupo} alt="" />
           15 áreas de especialización a tu disposición.
           </p>
-          <p className="bonscript"><img className="watsappimaa black m-2" src={planeta} alt="" />
+          <p className="bonscript talata"><img className="watsappimaa black m-2" src={planeta} alt="" />
           Presencia en 7 paises del mundo.
           </p>
           <button onClick={handleWhatsAppClick} className="hablame tp bonscript">HABLA CON UN ASESOR</button>
           <div className="generalbuton">
             <div className="atencion">
-              <div className="redes">
+              <div className="redes tolotolo">
                 <button onClick={handleWhatsAppClick1} className="watsappbutton">
                   <img className="watsappimaa" src={insta} alt="" />
                 </button>
@@ -57,7 +57,7 @@ const page3 = () => {
         </div>
         <div className='imacontent'>
         <div className='overlay circu'></div>
-          <img className='imagen1' src={image6} alt="" />
+          <img className='imagen1 nosotrar' src={image6} alt="" />
           
         </div>
       </div>

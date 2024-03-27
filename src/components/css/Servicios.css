@@ -90,8 +90,7 @@ border: white solid;
 }
 
 .textoinrela{
-    margin-bottom: 5%;
-    width: 220px;
+   
     font-size: 16px !important;
 }
   
@@ -105,4 +104,5 @@ border: white solid;
   /* Puedes agregar estilos adicionales según tus necesidades */
   .custom-modal{
     width: 100%;
+
   }

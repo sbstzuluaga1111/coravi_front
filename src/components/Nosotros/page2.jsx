@@ -20,7 +20,7 @@ const page2 = () => {
             </div>
             <div className="card-back">
               <h3 className="monserat">Desarrollo con IA</h3>
-              <p>
+              <p className="pato">
                 Redefinimos la manera de diseñar y ofrecemos soluciones
                 arquitectónicas avanzadas que no solo cumplen con las
                 expectativas, sino que las superan.
@@ -37,7 +37,7 @@ const page2 = () => {
             </div>
             <div className="card-back">
               <h3 className="monserat">Diseño internacional</h3>
-              <p>
+              <p className="pato">
                 Desde la elegancia europea hasta la modernidad asiática, nuestro
                 equipo fusiona estilos internacionales para crear arquitectura
                 única y en sintonía con las tendencias globales.
@@ -54,7 +54,7 @@ const page2 = () => {
             </div>
             <div className="card-back">
               <h3 className="monserat">Inversión inteligente</h3>
-              <p>
+              <p className="pato">
                 Nuestra experiencia, aliada a una visión estratégica, asegura
                 que cada inversión se traduzca en un valor duradero. Aqui
                 realizamos un proyecto para toda una vida
@@ -71,7 +71,7 @@ const page2 = () => {
             </div>
             <div className="card-back">
               <h3 className="monserat">Equipo multidisciplinar</h3>
-              <p>
+              <p className="pato">
                 Somos un equipo completo de expertos dedicados. Nuestra
                 fortaleza radica en la colaboración sinérgica de diversos
                 talentos, garantizando una solución integral y excepcional para

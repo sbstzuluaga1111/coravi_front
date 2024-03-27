@@ -2,8 +2,30 @@
     background-color: #1A1A1A !important;
     color: white;
     text-align: center;
-    
+    min-height: 90vh;
   }
+
+  .nosotrar{
+    border-radius: 3rem;
+  }
+
+  .calor{
+  width: 60px;
+  height: 60px;
+  }
+
+  .mayorut{
+   
+    margin-top: 3%;
+  }
+
+  .honkai {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Centra verticalmente */
+    margin: 5%;
+  }
+  
 
   .maritñ{
     margin-left: 5%;
@@ -17,6 +39,7 @@
  } 
 
  .textoyuuuu {
+  transform: translateY(20px);
   height: 100%;
   width: 80%;
   padding: 1%;
@@ -44,12 +67,7 @@
     overflow: hidden;
   }
 
-  .padingg{
-    padding-left: 5%;
-    padding-right: 5%;
-    padding-bottom: 0%;
-    margin-bottom: 0%;
-  }
+  
   
   .imagenNosotros {
     width: 100%;
@@ -82,19 +100,22 @@
       font-size: 16px;
     }
 
-    .talata{
-      justify-content: start !important;
+    .talata {
       text-align: start !important;
-      width: 90% !important;
-      font-size: 10.1px !important;
-      padding: 0;
-      margin: 0;
+      width: 100% !important;
+      font-size: 18px !important;
+      display: flex;
+      align-items: center;
+      justify-content: center; /* Centra verticalmente */
       margin-left: 5%;
       margin-right: 5%;
     }
+    
+
+
 
     .tolotolo{
-      transform: translateY(50px);
+      margin-top: 5%;
     }
 
     .textoyuuuu {
@@ -130,6 +151,11 @@ height: 500px;
     .nosotrar{
       border-radius: 3rem;
       height: 300px;
+    }
+
+    .nosotros {
+      
+      min-height: 108vh;
     }
     
   }
@@ -207,7 +233,7 @@ height: 500px;
   
   .card-front {
     
-    background-color: #ffffff;
+    background-color: #ababab;
     color: #000000;
     display: flex;
     align-items: center;
@@ -219,17 +245,21 @@ height: 500px;
   }
   
   .card-back {
-    background-color: #ffffff;
+    background-color: #e6e6e6;
     color: #000000;
     display: flex;
     align-items: center;
-    border: 10px solid #ffffff;
+    
     border-radius: 10px;
     justify-content: center;
     font-size: 20px;
     transform: rotateY(180deg);
   }
   
+  .pato{
+    margin-left: 5%;
+    margin-right: 5%;
+  }
 
   .imagen3{
     width: 100%;
@@ -243,3 +273,4 @@ height: 500px;
     color: #ffffff;
     font-size: large;
   }
+

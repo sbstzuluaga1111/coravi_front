@@ -207,8 +207,9 @@ li {
 }
 
 .logo {
-  margin: 0%;
-  width: 60px;
+  padding: 0;
+  
+  width: 55px;
   height: 60px;
   transition: box-shadow 0.3s ease, width 0.3s ease; /* Agrega transición para suavizar el cambio */
 }

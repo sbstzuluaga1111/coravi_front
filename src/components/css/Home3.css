@@ -71,7 +71,8 @@
 
     .redess{
         top: 150px;
-        left: 30px;
+        margin-left: 15%;
+        margin-right: 15%;
         display: flex;
         justify-content: space-around;
         width: 50%;

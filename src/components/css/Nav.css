@@ -222,7 +222,7 @@ li {
 }
 
 .textitt{
-  transform: translateY(-45%) translateX(-4%);
+  transform: translateY(-45%);
   padding: 0%;
   margin: 0%;
   font-family: 'Bahnschrift Light Condensed', sans-serif;

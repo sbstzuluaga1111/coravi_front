@@ -4,7 +4,11 @@
     background-color: black;
     color: white;
     width: 100%;
-    min-height: 94.6vh;
+    min-height: 85vh;
+}
+
+.rin{
+    transform: translateX(60px);
 }
 
 @media (max-width: 768px) {
@@ -14,6 +18,15 @@
         width: 100%;
         justify-content: center;
         flex-direction: column-reverse;
+        min-height: 100vh;
+    }
+
+    .tp{
+        margin-bottom: 10%;
+    }
+
+    .separate{
+        padding-bottom: 25%;
     }
 
     .servima {
@@ -22,6 +35,9 @@
         object-fit: cover;
     }
     
+    .rin{
+        transform: translateX(0px);
+    }
 
     .tero{
         padding: 0%;
@@ -45,12 +61,11 @@ border: white solid;
 }
 
 .servima {
-    width: 800px;
-    height: 94.6vh;
+    width: 100%;
+    height: 85vh;
   }
   
 .tero{
-    margin-top: 10%;
     padding: 3%;
 }
 

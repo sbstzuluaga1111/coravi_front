@@ -44,7 +44,7 @@ const digitacion = () => {
           <button onClick={handleWhatsAppClick} className="hablame tp bonscript">HABLA CON UN ASESOR</button>
           <div className="generalbuton">
             <div className="atencion">
-              <div className="redes">
+              <div className="redes rin">
                 <button onClick={handleWhatsAppClick1} className="watsappbutton">
                   <img className="watsappimaa" src={insta} alt="" />
                 </button>

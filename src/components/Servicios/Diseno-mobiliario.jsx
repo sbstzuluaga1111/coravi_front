@@ -6,7 +6,7 @@ import corre from "../../img/corre.png";
 import Nav from "../Nav";
 import "../css/Servicios.css";
 import 'bootstrap/dist/css/bootstrap.min.css';
-import e1 from "../../img/PAGINA WEB/home4.jpg";
+import e1 from "../../img/PAGINA WEB/e6.jpg";
 import e2 from "../../img/PAGINA WEB/e2.jpg";
 import e3 from "../../img/PAGINA WEB/e3.jpg";
 import e4 from "../../img/PAGINA WEB/e4.jpg";
@@ -42,7 +42,7 @@ const Mobiliario = () => {
           <button onClick={handleWhatsAppClick} className="hablame tp bonscript">HABLA CON UN ASESOR</button>
           <div className="generalbuton">
             <div className="atencion">
-              <div className="redes">
+              <div className="redes rin">
                 <button onClick={handleWhatsAppClick1} className="watsappbutton">
                   <img className="watsappimaa" src={insta} alt="" />
                 </button>

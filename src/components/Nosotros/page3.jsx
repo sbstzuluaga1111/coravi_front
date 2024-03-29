@@ -29,9 +29,9 @@ const page3 = () => {
        <div className="separate nosotros padingg">
 
 
-        <div className="textoyuuuu"><h1 className=" monserat titulos">UN POCO MAS DE NOSOTROS</h1>
+        <div className="textoyuuuu"><h1 className=" monserat titulos chiquitt">UN POCO MAS DE NOSOTROS</h1>
 <div className="center">
-        <div className="honkai">
+        <div className="honkai iconico">
 <img className="watsappimaa black m-2 calor" src={estrella} alt="" /><img className="watsappimaa black m-2 calor" src={grupo} alt="" /><img className="watsappimaa black m-2 calor" src={planeta} alt="" />
          </div> 
           

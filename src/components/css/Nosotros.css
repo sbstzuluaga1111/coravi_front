@@ -27,6 +27,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center; /* Centra verticalmente */
+    align-items: center;
     margin: 5%;
   }
   
@@ -100,6 +101,8 @@
       margin: 1%;
     }
 
+   
+
     .imagenNosotrosContainer {
       height: 30vh;
       
@@ -110,9 +113,11 @@
     }
 
     .talata {
+      transform: translateY(8px);
       text-align: start !important;
       width: 100% !important;
-      font-size: 18px !important;
+      padding: 0 !important;
+      font-size: 16px !important;
       display: flex;
       align-items: center;
       justify-content: center; /* Centra verticalmente */
@@ -124,6 +129,7 @@
       height: 900px;
     }
 
+  
 
     .tolotolo{
       margin-top: 5%;
@@ -135,12 +141,18 @@
       padding: 1%;
       
     }
-
+.chiquitt{
+  font-size: 20px;
+}
 
     .modal-body {
 height: 500px;
     }
 
+    .completod{
+      width: 130%;
+      margin: 0;
+    }
 
     .card-front,
   .card-back {

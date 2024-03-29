@@ -8,7 +8,7 @@ import image5 from '../../img/PAGINA WEB/nosotros5.jpg'
 const page2 = () => {
   return (
     <div className="App-header nosotros">
-      <p className="monserat titulos">NUESTROS DISTINTIVOS</p>
+      <p className="monserat titulos completod">NUESTROS DISTINTIVOS</p>
       <p className="bonscript">En cada detalle, marcamos la diferencia.</p>
 
       <div className="containCards">

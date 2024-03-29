@@ -5,6 +5,10 @@
     min-height: 90vh;
   }
 
+  .loto{
+    border-radius: 0 !important;
+  }
+
   .nosotrar{
     border-radius: 3rem;
   }
@@ -47,6 +51,10 @@
   text-align: start;
   display: flex;
   flex-direction: column;
+}
+
+.nosotrar{
+  border-radius: 4rem !important;
 }
 
 
@@ -209,7 +217,7 @@ height: 500px;
     height: 380px;
     perspective: 1000px;
     background-color: #1A1A1A;
-    border-radius: 10px;
+    border-radius: 2.5rem;
   }
   
   .card-inner {
@@ -218,6 +226,7 @@ height: 500px;
     position: relative;
     transform-style: preserve-3d;
     transition: transform 0.999s;
+    border-radius: 2.5rem;
   }
   
   .card:hover .card-inner {
@@ -231,6 +240,7 @@ height: 500px;
     height: 100%;
     backface-visibility: hidden;
     display: flex;
+    border-radius: 2.5rem;
     flex-direction: column;
   }
   
@@ -241,7 +251,7 @@ height: 500px;
     display: flex;
     align-items: center;
     
-    border-radius: 10px;
+    border-radius: 2.5rem;
     justify-content: center;
     font-size: 24px;
     transform: rotateY(0deg);
@@ -253,7 +263,7 @@ height: 500px;
     display: flex;
     align-items: center;
     
-    border-radius: 10px;
+    border-radius: 2.5rem;
     justify-content: center;
     font-size: 20px;
     transform: rotateY(180deg);
@@ -267,7 +277,7 @@ height: 500px;
   .imagen3{
     width: 100%;
     height: 100%;
-    border-radius: 10px;
+    border-radius: 2.5rem;
   }
 
   .textimgina{

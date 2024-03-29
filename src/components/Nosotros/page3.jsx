@@ -64,8 +64,8 @@ const page3 = () => {
             </div>
           </div>
         </div>
-        <div className='imacontent'>
-        <div className='overlay circu'></div>
+        <div className='imacontent lalareli'>
+        
           <img className='imagen1 nosotrar' src={image6} alt="" />
           
         </div>

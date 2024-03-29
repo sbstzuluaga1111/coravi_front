@@ -72,7 +72,7 @@ const Page1 = () => {
         <div className='textoyu'> 
         <p className='bonscript'>DAR EL PRIMER PASO ES GRATIS</p>
         <p className='texttt monserat titulos'>Exclusividad Hecha Espacio, Diseñado Para Ti.</p>
-        <button onClick={handleWhatsAppClick} className='hablame bonscript talet'>HABLACON UN ASESOR</button>
+        <button onClick={handleWhatsAppClick} className='hablame bonscript talet'>HABLA CON UN ASESOR</button>
         </div> 
 
         <div className='imacontent'>

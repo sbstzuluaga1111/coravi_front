@@ -52,7 +52,7 @@ const Suscripcion = ({ modalIsOpen, closeModal }) => {
       <Modal.Body className="d-flex align-items-center justify-content-center modal-body aloja">
         
           <div className="susbcripcaru1">
-            <Carousel interval={2500} controls={false} indicators={false}>
+            <Carousel interval={1500} controls={false} indicators={false}>
               <Carousel.Item>
                 <img
                   className="susbcripcaru"

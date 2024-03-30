@@ -49,6 +49,12 @@
   
 
   @media screen and (max-width: 768px) {
+
+
+    .aloja{
+      flex-direction: column;
+    }
+    
     .bonscript{
        text-align: center;
       }

@@ -35,11 +35,11 @@ const construccion = () => {
         <div className="textoyuuu tero">
           <h1 className="monserat titulos">CONSTRUCCIÓN Y ACABADOS</h1>
           <p className="bonscript">
-          sólidas y estéticamente impresionantes.
+          Nos enorgullece ofrecer servicios integrales de construcción y acabados especiales, llevando a cabo cada proyecto con un compromiso inquebrantable con la excelencia y la atención a los detalles. Desde los cimientos hasta los toques finales, transformamos visiones en estructuras 
           </p>
           <button onClick={handleWhatsAppClick} className="hablame tp bonscript">HABLA CON UN ASESOR</button>
           <div className="generalbuton">
-            <div className="atencion">
+            
               <div className="redes rin">
                 <button onClick={handleWhatsAppClick1} className="watsappbutton">
                   <img className="watsappimaa" src={insta} alt="" />
@@ -51,7 +51,7 @@ const construccion = () => {
                   <img className="watsappimaa" src={corre} alt="" />
                 </button>
               </div>
-            </div>
+            
           </div>
         </div>
         <div className="containercarusel">

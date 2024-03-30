@@ -47,7 +47,7 @@ const page3 = () => {
           </p></div></div>
 
 
-          <button onClick={handleWhatsAppClick} className="hablame tp bonscript">HABLA CON UN ASESOR</button>
+          <button onClick={handleWhatsAppClick} className="hablame tp bonscript ttuit">HABLA CON UN ASESOR</button>
           <div className="generalbuton">
             <div className="atencion">
               <div className="redes tolotolo">

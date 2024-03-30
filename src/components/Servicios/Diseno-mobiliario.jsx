@@ -41,7 +41,7 @@ const Mobiliario = () => {
           </p>
           <button onClick={handleWhatsAppClick} className="hablame tp bonscript">HABLA CON UN ASESOR</button>
           <div className="generalbuton">
-            <div className="atencion">
+            
               <div className="redes rin">
                 <button onClick={handleWhatsAppClick1} className="watsappbutton">
                   <img className="watsappimaa" src={insta} alt="" />
@@ -53,7 +53,7 @@ const Mobiliario = () => {
                   <img className="watsappimaa" src={corre} alt="" />
                 </button>
               </div>
-            </div>
+            
           </div>
         </div>
         <div className="containercarusel">

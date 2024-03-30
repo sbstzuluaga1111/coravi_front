@@ -6,7 +6,7 @@ import corre from "../../img/corre.png";
 import Nav from "../Nav";
 import "../css/Servicios.css";
 import 'bootstrap/dist/css/bootstrap.min.css';
-import h1 from "../../img/PAGINA WEB/home5.jpg";
+import h1 from "../../img/PAGINA WEB/h6.jpg";
 import h2 from "../../img/PAGINA WEB/h2.jpg";
 import h3 from "../../img/PAGINA WEB/h3.jpg";
 import h4 from "../../img/PAGINA WEB/h4.jpg";
@@ -42,7 +42,7 @@ const modelado = () => {
           </p>
           <button onClick={handleWhatsAppClick} className="hablame tp bonscript">HABLA CON UN ASESOR</button>
           <div className="generalbuton">
-            <div className="atencion">
+            
               <div className="redes rin">
                 <button onClick={handleWhatsAppClick1} className="watsappbutton">
                   <img className="watsappimaa" src={insta} alt="" />
@@ -54,7 +54,7 @@ const modelado = () => {
                   <img className="watsappimaa" src={corre} alt="" />
                 </button>
               </div>
-            </div>
+            
           </div>
         </div>
         <div className="containercarusel">

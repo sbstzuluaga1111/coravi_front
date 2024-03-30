@@ -4,7 +4,10 @@
     display: flex;
 }
 
-
+.ttuit{
+  
+  width: 100%;
+}
 
   .contentimage button {
     padding: 10px;
@@ -54,7 +57,7 @@
     .aloja{
       flex-direction: column;
     }
-    
+
     .bonscript{
        text-align: center;
       }

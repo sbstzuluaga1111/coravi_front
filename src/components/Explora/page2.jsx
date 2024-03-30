@@ -56,7 +56,7 @@ const page2 = () => {
       <div className="espesiood">
 
       <p className="monserat titulos">¿Tantas ideas te han inspirado?</p>
-      <button className='hablame bonscript' onClick={handleWhatsAppClick}>HAGAMOSLO REALIDAD</button>
+      <button className='hablame bonscript ttuit' onClick={handleWhatsAppClick}>HAGAMOSLO REALIDAD</button>
       </div>
     </div>
   );

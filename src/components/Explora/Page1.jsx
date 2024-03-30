@@ -9,7 +9,7 @@ const Page1 = () => {
     <div className=''>
         <div className='imagenNosotrosContainer'>
           <div className='imagenNosotros'>
-          <img className='imagen3' src={image1} alt="" />
+          <img className='imagen3 loto' src={image1} alt="" />
           </div>
           <div className='overlay'></div>
           <div className='textoSuperpuesto'>

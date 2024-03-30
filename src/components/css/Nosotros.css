@@ -4,7 +4,13 @@
     text-align: center;
     min-height: 90vh;
   }
-
+  
+  .talata {
+    width: 300px;
+    font-size: 20px !important;
+    transform: translateY(14px);
+  }
+  
   .loto{
     border-radius: 0 !important;
   }

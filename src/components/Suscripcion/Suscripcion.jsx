@@ -101,7 +101,7 @@ const Suscripcion = ({ modalIsOpen, closeModal }) => {
               <Form.Control type="email" value={correo} onChange={handleCorreoChange} required />
             </Form.Group>
             <br />
-            <Button className='bututu' variant="primary" type="submit">
+            <Button variant="primary" type="submit">
               Suscribirse
             </Button>
           </Form>

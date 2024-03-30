@@ -12,6 +12,12 @@
 }
 
 @media (max-width: 768px) {
+
+    .susbcripcaru{
+        width: 200px !important;
+        height: 170px !important;
+    }
+
     .separate {
         margin: 0%;
         padding: 0%;
@@ -85,7 +91,6 @@ border: white solid;
     width: 200px;
     height: 250px;
     margin: 5px;
-    
     transform: translateY(-8px);
     
 }

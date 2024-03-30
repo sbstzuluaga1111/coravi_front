@@ -4,8 +4,12 @@
     display: flex;
 }
 
+.finalizacion{
+  width: 150%;
+  font-size: 15px !important;
+}
+
 .ttuit{
-  
   width: 100%;
 }
 
@@ -53,6 +57,11 @@
 
   @media screen and (max-width: 768px) {
 
+    .finalizacion{
+      width: 100%;
+      font-size: 10px !important;
+    }
+    
 
     .aloja{
       flex-direction: column;

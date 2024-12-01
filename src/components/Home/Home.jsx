@@ -62,12 +62,12 @@ const Home = () => {
     } else {
       setIsButtonDisabled(true);
       if (emailTouched && !isEmailValid(formData.correo)) {
-        setEmailError("El correo electrónico debe ser válido");
+        setEmailError("El correo electrónico debe ser válido*");
       } else {
         setEmailError("");
       }
       if (telefonoTouched && !isTelefonoValid(formData.telefono)) {
-        setTelefonoError("El teléfono debe tener exactamente 10 dígitos");
+        setTelefonoError("El teléfono debe tener exactamente 10 dígitos*");
       } else {
         setTelefonoError("");
       }

@@ -58,7 +58,17 @@ const Page3 = () => {
   };
 
   const handleWhatsAppClick2 = () => {
-    window.location.href = 'mailto:serviciocoravi.sas@gmail.com';
+    const email = 'serviciocoravi.sas@gmail.com';
+    const subject = 'Asunto aquí';
+    const body = 'Cuerpo del correo aquí';
+    const gmailUrl = `https://mail.google.com/mail/?view=cm&fs=1&to=${encodeURIComponent(email)}&su=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+    window.location.href = gmailUrl;
+};
+
+
+
+  const handleWhatsAppClick3 = () => {
+    window.location.href = 'https://www.facebook.com/CORAVI.ARQUITECTURA/';
   };
 
   return (
@@ -85,7 +95,7 @@ const Page3 = () => {
                 <button onClick={handleWhatsAppClick1} className="watsappbutton">
                   <img className="watsappimaa" src={insta} alt="" />
                 </button>
-                <button className="watsappbutton">
+                <button onClick={handleWhatsAppClick3} className="watsappbutton">
                   <img className="watsappimaa face" src={face} alt="" />
                 </button>
                 <button onClick={handleWhatsAppClick2} className="watsappbutton">

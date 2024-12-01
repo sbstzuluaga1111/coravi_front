@@ -62,13 +62,13 @@ const Page3 = () => {
     const subject = 'Asunto aquí';
     const body = 'Cuerpo del correo aquí';
     const gmailUrl = `https://mail.google.com/mail/?view=cm&fs=1&to=${encodeURIComponent(email)}&su=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
-    window.location.href = gmailUrl;
+    window.open = gmailUrl;
 };
 
 
 
   const handleWhatsAppClick3 = () => {
-    window.location.href = 'https://www.facebook.com/CORAVI.ARQUITECTURA/';
+    window.open = 'https://www.facebook.com/CORAVI.ARQUITECTURA/';
   };
 
   return (
